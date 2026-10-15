@@ -14,7 +14,6 @@
   "history_size": 1800,
   "embedding_model": "intfloat/multilingual-e5-small",
   "encoder_model": "distilbert/distilbert-base-multilingual-cased",
-  "generation_model": "Qwen/Qwen2.5-1.5B-Instruct",
   "epochs": 4,
   "learning_rate": 3e-05,
   "train_batch_size": 16,
