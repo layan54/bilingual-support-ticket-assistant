@@ -1,5 +1,5 @@
 {
-  "evaluation_status": "classifier comparison complete; inspect retrieval/generation reports too",
+  "evaluation_status": "classifier comparison complete; inspect retrieval and reply reports too",
   "models": [
     "tfidf_en",
     "e5_en",
