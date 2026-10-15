@@ -95,6 +95,6 @@ These describe intended behavior. Actual measured outputs, predicted intents, an
 
 - [Bitext customer-support dataset](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset): English messages and historical cases. Distributed under CDLA-Sharing-1.0; see `DATA_LICENSE.txt`.
 - [Arabic ticket dataset](https://github.com/SDAIAAcademy/applied-nlp/blob/main/labs/data/arabic_tickets.csv): source of the 24-example six-intent Arabic test subset. These examples were not used for training or query expansion.
-- [Policy knowledge base](https://github.com/SDAIAAcademy/applied-nlp/tree/main/labs/data/kb): source of the English policies; the project includes condensed Arabic adaptations and uses the Basket store name.
+- [Policy knowledge base](https://github.com/SDAIAAcademy/applied-nlp/tree/main/labs/data/kb): source of the English policies; the project includes condensed Arabic adaptations.
 - Arabic training/validation data and additional development questions were AI-authored for this project, not collected from real customers.
 - [SDAIA Academy](https://github.com/SDAIAAcademy)
