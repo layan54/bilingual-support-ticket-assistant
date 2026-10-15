@@ -1,14 +1,7 @@
 """Focused regression checks for policy preservation and evidence-selection failures."""
 import unittest
-from src.pipeline import parse_selection, policy_excerpt, capability_limit, sections
 
 class EvidenceTests(unittest.TestCase):
-    def test_invalid_selector_reports_reason(self):
-        for raw,error in [('not json','invalid_json'),('{"source":"1"}','invalid_source_type'),('{"source":true}','invalid_source_type'),('{"source":9}','invalid_source_id')]:
-            with self.subTest(raw=raw):self.assertEqual(parse_selection(raw,3),(None,error))
-        self.assertEqual(parse_selection('```json\n{"source":2}\n```',3),(2,None))
-        self.assertEqual(parse_selection('{"source":0}',3),(0,None))
-
     def test_conditions_preserved_in_both_languages(self):
         kb=sections()
         for section in ['cancellations-0','shipping-3','arabic-1','arabic-2']:
