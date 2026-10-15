@@ -22,7 +22,6 @@
   "bitext_sha256": "6f81102b0100b97b8468eb04368033a23206bf1fde9d53500d5806ec1001a434",
   "model_revisions": {
     "embedding_model": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
-    "encoder_model": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
-    "generation_model": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    "encoder_model": "45c032ab32cc946ad88a166f7cb282f58c753c2e"
   }
 }
