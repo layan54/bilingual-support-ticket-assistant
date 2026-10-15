@@ -1,0 +1,265 @@
+ticket_id,text,y_true,lang,dialect,source,y_pred,confidence,model
+bitext-3857,I need help tracking purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9268809245840288,e5_en
+bitext-3864,i have to see the eta of order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9715278029996121,e5_en
+bitext-3759,help to see order {{Order Number}} current status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9763390869373725,e5_en
+bitext-3350,can ya help me to see the ETA of purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9715536514371002,e5_en
+bitext-3485,see ETA of order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9593452652456474,e5_en
+bitext-3648,I have to check the status of purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.8951190657505478,e5_en
+bitext-3968,how can i check the eta of the order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9882176984411384,e5_en
+bitext-3523,see purchase {{Order Number}} status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9640301892326643,e5_en
+bitext-4023,need help to see the ETA of the purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9800331481165129,e5_en
+bitext-3960,need to trafk order {{Order Number}} help me,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.8077721727297676,e5_en
+bitext-3693,I have got to see purchase {{Order Number}} current status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9419561733663272,e5_en
+bitext-3592,i dont know how to see the eta of order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9741524146336751,e5_en
+bitext-3804,I do not know how I could check the ETA of purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9231111730598961,e5_en
+bitext-3991,is it possible to check purchase {{Order Number}} status?,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9646462594577041,e5_en
+bitext-3767,"I want to see the ETA of order {{Order Number}}, how do I do it?",track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9690757580612337,e5_en
+bitext-3374,can you help me seeing the ETA of purchase {{Order Number}}?,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9799054340753951,e5_en
+bitext-3803,how can i see order {{Order Number}} status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9903731710983921,e5_en
+bitext-3886,need help checking the status of purechase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9011115194325063,e5_en
+bitext-3370,I can't see order {{Order Number}} status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9180200734132228,e5_en
+bitext-3469,tracking order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9406867027741826,e5_en
+bitext-3737,see order {{Order Number}} stats,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9453802793717553,e5_en
+bitext-3653,i wqant assistance checking purchase {{Order Number}} status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.8796006582978759,e5_en
+bitext-3894,assistance to track purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9209890969418868,e5_en
+bitext-3735,how to see the ETA of order {{Order Number}}?,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9892986809506104,e5_en
+bitext-3634,can ya help me to see the ETA of order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9746042605634051,e5_en
+bitext-3312,checking ETA of order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9771599358062466,e5_en
+bitext-4017,help me locating purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.8986759169121037,e5_en
+bitext-3484,want help seeing purchase {{Order Number}} status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9809918586670868,e5_en
+bitext-3703,"I have got to check order {{Order Number}} status, can you help me?",track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9180118639312906,e5_en
+bitext-3428,I have to check purchase {{Order Number}} current status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9208782124802896,e5_en
+bitext-3391,assistance seeing the current status of purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9145526930379666,e5_en
+bitext-3677,I do not know how to track order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.7416418983505978,e5_en
+bitext-4008,can ushow me the ETA of purchase {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9585474088589108,e5_en
+bitext-3493,help seeing the ETA of the purchase00123842,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.8859899033888379,e5_en
+bitext-4021,eta fo order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9223869066473912,e5_en
+bitext-3743,how could i check the ETA of the order {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9844726695705364,e5_en
+bitext-3382,show me order {{Order Number}} status,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9466433098411203,e5_en
+bitext-3615,when will I receive ordered {{Order Number}}?,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.7799050149646682,e5_en
+bitext-3845,ETA of ordr {{Order Number}},track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9677452836191108,e5_en
+bitext-3520,needto locate order {{Order Number}} how can i do it,track_order,en,en,Bitext CDLA-Sharing-1.0,track_order,0.9314105368884358,e5_en
+bitext-152,I need helpto cancel order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9778879026784493,e5_en
+bitext-397,i bought some product help me canceling order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9719492384382402,e5_en
+bitext-411,have problems with cancelling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.972451934997242,e5_en
+bitext-94,I want assistance canceling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9625135048024996,e5_en
+bitext-70,whag do i need to do to cancel order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.984924374315533,e5_en
+bitext-415,cancel order,cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9933714613017428,e5_en
+bitext-388,can you help me camceling the purchase I made?,cancel_order,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.2867942833167316,e5_en
+bitext-220,question about cancelling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9717409711903009,e5_en
+bitext-39,problems with cancelling order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9740821061060363,e5_en
+bitext-55,"I cannot pay for the last purchase I have made, cancel it",cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.7835735214165939,e5_en
+bitext-349,i have a provlem with cancelling order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9449159307442048,e5_en
+bitext-231,I need help to cancel order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9736915767124446,e5_en
+bitext-402,need ot cancel purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9548271566729906,e5_en
+bitext-30,i need help with canceling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9714210134939001,e5_en
+bitext-403,"I ordered some items, need help cancelling the last purchase",cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9279579561297389,e5_en
+bitext-287,"I don't want this article, cancel order {{Order Number}}",cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9548904708961851,e5_en
+bitext-110,help with canceling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9735854663923746,e5_en
+bitext-223,I'm trying to cancel purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9598762758008783,e5_en
+bitext-323,i do not know how i can canmcel order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.8429317385828189,e5_en
+bitext-72,cancelling order,cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9917910081726106,e5_en
+bitext-84,need assistance cancelling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9660032551785184,e5_en
+bitext-294,"I ordered some products, how to cancel purchase {{Order Number}}?",cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.980849938375487,e5_en
+bitext-277,"I have to cancel purchase {{Order Number}}, can I get some help?",cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9433323113154373,e5_en
+bitext-326,"I can't afford this item, I try to cancel order {{Order Number}}",cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9665234039786791,e5_en
+bitext-312,I nee assistance to cancel purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9619122484451339,e5_en
+bitext-90,help with cancelling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9770341990483743,e5_en
+bitext-9,i need help canceling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9755748557181004,e5_en
+bitext-104,i no longer want purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.8287814397268575,e5_en
+bitext-310,I need help cancelnig purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9648415866510363,e5_en
+bitext-76,i want help to cancel purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9741145402842347,e5_en
+bitext-184,cancelling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.988824832392681,e5_en
+bitext-77,how do i cancel order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9888000488637329,e5_en
+bitext-56,could you help me cancel purchase {{Order Number}}?,cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9777230371054085,e5_en
+bitext-211,can you help me cancelling oredr {{Order Number}}?,cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9739027821842353,e5_en
+bitext-408,need assistance cancelinv purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9557125524423472,e5_en
+bitext-347,I can't aford order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.8168419543445614,e5_en
+bitext-73,i want help cancelling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9734971247243013,e5_en
+bitext-246,want assistance canceling purchase {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9667527737318082,e5_en
+bitext-33,need assistance to cancel order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9741498641279506,e5_en
+bitext-413,I have got to cancel order {{Order Number}},cancel_order,en,en,Bitext CDLA-Sharing-1.0,cancel_order,0.9791996464877271,e5_en
+bitext-1253,there is an error trying to update the shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9784743704985513,e5_en
+bitext-894,i have a trouble updating my addrses,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.7782088007424798,e5_en
+bitext-767,what do I need to do to change the address?,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.969688689002351,e5_en
+bitext-1309,I have to update my shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9736944211587921,e5_en
+bitext-1272,need assistance correcting the delivery address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9558932167065249,e5_en
+bitext-678,I want supports trying to edit the delivery address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.945702836299078,e5_en
+bitext-632,can you tell me more about updating my delivery address?,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9685891253425288,e5_en
+bitext-751,how do I edit my address?,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9936641370245924,e5_en
+bitext-503,help trying to update the delivery address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9711477778727615,e5_en
+bitext-1294,"I entered a wrong address by mistake, could I update it?",change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.970857346373806,e5_en
+bitext-993,there is an issue trying to update the shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9794953632933586,e5_en
+bitext-484,there is a trouble correcting my delivery adxdress,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9528326456689362,e5_en
+bitext-635,I have troubles editing the address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9748433522779749,e5_en
+bitext-1371,wanna know about modifying the shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9833271150725047,e5_en
+bitext-999,help with a fucking address change,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9223376603741839,e5_en
+bitext-959,I am trying to edit the delivery adress,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9652934736935613,e5_en
+bitext-447,support trying to update mh address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9370293658657569,e5_en
+bitext-881,can you help me correct my goddamn shipping address?,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9517630116258663,e5_en
+bitext-1202,give me information about modifying the address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9880492426677245,e5_en
+bitext-1324,how could I get information aout an address update?,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9349964348261762,e5_en
+bitext-1329,there is a trouble trying to edit the address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.978163660738275,e5_en
+bitext-537,want assistance updating the address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9606810310652849,e5_en
+bitext-1153,where to update my shipping address?,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9871745937252756,e5_en
+bitext-759,I want hwlp to correct the shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9250757528980464,e5_en
+bitext-1137,I want supports correcting my shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9568711450999484,e5_en
+bitext-440,support coprrecting the address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9175337547162464,e5_en
+bitext-648,I want assistance to modify the shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9657847343893804,e5_en
+bitext-903,I don't know what I have to do to modify my delivery address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9697087909902339,e5_en
+bitext-1365,problems with a shipping address update,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.983621790319269,e5_en
+bitext-487,I have an error editing the delivery address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.963727816059989,e5_en
+bitext-1019,"I want to update the address, I need assistance",change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.927668329577134,e5_en
+bitext-524,supports trying to edit the address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.970718823984174,e5_en
+bitext-1039,I don't know what I have to do to update my delivery address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9611838443903357,e5_en
+bitext-582,I have an issue trying to correct my address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9688688646399027,e5_en
+bitext-1247,help to modify my fucking shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9663466568070574,e5_en
+bitext-1125,"my address has changed, I need help modifying it",change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9670014376011623,e5_en
+bitext-733,there is an error modifying my address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9813001446625896,e5_en
+bitext-476,want help trying to edit my addres,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.8338292796758928,e5_en
+bitext-585,where could I edit the address?,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9927348681964812,e5_en
+bitext-1332,i have an issue changing my shipping address,change_shipping_address,en,en,Bitext CDLA-Sharing-1.0,change_shipping_address,0.9842258338304181,e5_en
+bitext-2494,I'm trying to inform of problems with online payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9521875126353544,e5_en
+bitext-2612,can you help me report a problem with online payment?,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9802627259882554,e5_en
+bitext-2782,help me solving a trouble with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9603529899330897,e5_en
+bitext-2590,i need assistance notifying of a payment probelm,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.8953652567242734,e5_en
+bitext-2369,need help to notify of an issue with payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9827400932708796,e5_en
+bitext-2816,i want assistance to solve issues with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9523240212740536,e5_en
+bitext-2561,i need help reporting a trouble with online payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9743480720713691,e5_en
+bitext-2388,"I need to report a payment error, how can I do it?",payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9037379484042404,e5_en
+bitext-2340,help notifying of an error with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9864399000956303,e5_en
+bitext-2787,"I cannot pay, I have to inform of a problem with payments",payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9321026079256941,e5_en
+bitext-2640,i want help informing of troubles with online payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9758850210227513,e5_en
+bitext-2726,issue with payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9708023606552666,e5_en
+bitext-2351,how can I inform of an issue with payment?,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9897363521410252,e5_en
+bitext-2377,need assistance solving a problem with online payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9567081786149856,e5_en
+bitext-3140,i do not know what to do to report a trouble with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9688600604220554,e5_en
+bitext-3031,I need assistance to report a trouble with online payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9556185817027367,e5_en
+bitext-3146,where do I inform of problems with online payments?,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9860422876150751,e5_en
+bitext-3215,need to inform of issues with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9878333066556483,e5_en
+bitext-2357,could you help me to report an error with online payment?,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9670447206364252,e5_en
+bitext-3108,could ya help me solving an error with payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9243102218304154,e5_en
+bitext-2479,payment issues,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9742890161173663,e5_en
+bitext-2780,notifying of problems with payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9932029369699088,e5_en
+bitext-2991,need assistance informing of a trouble with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.973608001463547,e5_en
+bitext-2781,I want assistance to notify of troubles with online payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9649037879042419,e5_en
+bitext-2817,how can I notify of problems with payment?,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9923160305789326,e5_en
+bitext-3071,I want help to notify oof issues with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9274636444913118,e5_en
+bitext-3223,i need help solving an error with online payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9478952016443192,e5_en
+bitext-2799,i cant make transfers notify of a trouble with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9631449592886228,e5_en
+bitext-2738,i have to inform of troubles with online payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.982568958116837,e5_en
+bitext-3227,want help notifying of a trouble with payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9842059755654707,e5_en
+bitext-3095,what do I need to do to report payment problems?,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9746807044371667,e5_en
+bitext-3009,I am trying to notify of problems with onine payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.859405100160602,e5_en
+bitext-2884,I am trying to inform of a trouble with online payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9505367693389839,e5_en
+bitext-2878,I want assistance solving errors with payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9344056386473911,e5_en
+bitext-2954,notify of trouble with online payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9904509913371576,e5_en
+bitext-2970,help with payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.8679905871051187,e5_en
+bitext-2663,assistance to inform of an issue with online payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9835585194017249,e5_en
+bitext-3221,help informing of an error with payments,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9854945969360867,e5_en
+bitext-2897,where to report probles with online payment,payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.8725208543197841,e5_en
+bitext-2936,"I can't pay, help to inform of issues with payment",payment_issue,en,en,Bitext CDLA-Sharing-1.0,payment_issue,0.9150720781294949,e5_en
+bitext-1446,is it possible to obtain reimbursements of my money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.961504633237848,e5_en
+bitext-1833,I do not know what to do to receive rebates of my money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8975669767966745,e5_en
+bitext-1594,I have got to ask for refunds,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8672825282235157,e5_en
+bitext-1626,i want assistance to obtain rebates,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9247045805820513,e5_en
+bitext-1415,need assistance t ask for refunds of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9599447477251262,e5_en
+bitext-2244,need assistance demanding my money back,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9848719103648443,e5_en
+bitext-1862,I need to get a rebate,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8312094104666747,e5_en
+bitext-1486,i need help to obtain compensations,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9349904563054455,e5_en
+bitext-1448,I do not know how to demand a reimbursement,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8568109215294393,e5_en
+bitext-1462,i need help demanding restitutions of my money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9741797557573482,e5_en
+bitext-2072,how do i receibe a compensation of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9479599247299847,e5_en
+bitext-1824,I need help demanding a rebate of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9616135070684003,e5_en
+bitext-1550,I'm trying to demand fucking refunds of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8683980703589675,e5_en
+bitext-1801,how to receive a reimbursement of my money?,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9789789524390623,e5_en
+bitext-1726,I don't know how to demand a restitution of my money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9304943397913675,e5_en
+bitext-1808,where do I receive a compensation?,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8977830135587508,e5_en
+bitext-2243,how to ask for my money back,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.983733615920622,e5_en
+bitext-1966,i do not know what i have to do to ask for a rebate of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.953538021153873,e5_en
+bitext-1866,want help to obtain a compensation of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9720672853820914,e5_en
+bitext-1443,I want help asking for an reimbursement,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8380116367537779,e5_en
+bitext-1591,how to obtain a rebate of money?,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.982287073896735,e5_en
+bitext-2172,howcan i receive a reimbursement,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.956594406272967,e5_en
+bitext-1967,getting money back,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9694223617386256,e5_en
+bitext-2084,i have got to obtain an reimbursement of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9351775191310455,e5_en
+bitext-1920,when am i gonna obtain a reimbursement of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9040474983694404,e5_en
+bitext-2090,"I have paid {{Currency Symbol}}{{Refund Amount}} for this order, where to get a rebate?",get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.7759324417323327,e5_en
+bitext-1406,I need to ask fot refunds of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8701896094325028,e5_en
+bitext-1708,I want assistance to demand refunds of my money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9660294997786846,e5_en
+bitext-1685,want hep receiving a refund of my money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.871224947900216,e5_en
+bitext-1923,how could I obtain rebates?,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9679416160052334,e5_en
+bitext-1987,can ya help me get reimbursements,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9431015375588526,e5_en
+bitext-1877,I want ehlp demanding a reimbursement of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8285834466111179,e5_en
+bitext-1757,when will i get a restitutiom of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8604966807127372,e5_en
+bitext-1859,how long until I obtain a restitution of money?,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8723164746774646,e5_en
+bitext-1587,wanna get a rebate of my mney,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.867855394714122,e5_en
+bitext-2002,how long till i receive a rebate,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.6873604968513529,e5_en
+bitext-1399,can you help me receive refunds of money?,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9867045204214447,e5_en
+bitext-2031,i have to request a rebate of my money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9621226735768166,e5_en
+bitext-1812,I need to demand a rebate,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.8752797621166473,e5_en
+bitext-1589,I do not know how I can obtain refunds of money,get_refund,en,en,Bitext CDLA-Sharing-1.0,get_refund,0.9215366603201364,e5_en
+bitext-4672,i dont know what i have to do to see the rebate status,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9208661251357205,e5_en
+bitext-4632,I want assistance to check my reimbursement status,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9264997500342567,e5_en
+bitext-4088,refund status,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8934356269745503,e5_en
+bitext-4344,i cant see the compensation status,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8957290104201128,e5_en
+bitext-4126,help to see if there is anything wrong with the refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8768376090672722,e5_en
+bitext-4567,help checking the current status of the restitution,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9737686576689444,e5_en
+bitext-4285,where do I check if there are any news on the reimbursement?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9579158968186421,e5_en
+bitext-4190,"I have got to see the refund current status, how do I do it?",track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8930405762597945,e5_en
+bitext-4684,I need help to see the current status of the refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9575237122489773,e5_en
+bitext-4510,I cannot know if there are any updates on my damn refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.928142957902336,e5_en
+bitext-4359,I need help checking if there are any updates on the rebate,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9679891243003156,e5_en
+bitext-4233,"I expect a refund of {{Currency Symbol}}{{Refund Amount}}, has it been processed?",track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8372181951911521,e5_en
+bitext-4259,i xepect a refund of {{Currency Symbol}}{{Refund Amount}},track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.6070586103485668,e5_en
+bitext-4381,anything new on my goddamn reimbursement,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8443187042031245,e5_en
+bitext-4156,"I want to see my compensation status, I need help",track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8183522413336495,e5_en
+bitext-4300,i cant see if there are any updates on the refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9761774989107971,e5_en
+bitext-4234,help me to see the refund status,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9184483191191488,e5_en
+bitext-4080,help checking if there is anything wrong with the refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8725790685379805,e5_en
+bitext-4235,how to check the current status of the reimbursement?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9661243216657723,e5_en
+bitext-4317,where can I check the current status of my rebate?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9689637454875838,e5_en
+bitext-4507,"I expect a bloody rebate of {{Currency Symbol}}{{Refund Amount}}, was it processed already",track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8750402306103153,e5_en
+bitext-4102,help me to check the current status of the compensation,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9518579187523081,e5_en
+bitext-4248,help me see the current status of the refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9636403916638164,e5_en
+bitext-4321,I am waiting for a refund of {{Currency Symbol}}{{Refund Amount}},track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8441376151780757,e5_en
+bitext-4378,how can I track the compensation?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9224284666954006,e5_en
+bitext-4079,can I track the reimbursement?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9464364818831619,e5_en
+bitext-4145,where can I know if there is anything new on the refund?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9452462422049677,e5_en
+bitext-4642,where could I check the rebate status?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.955697751295605,e5_en
+bitext-4315,i expect a compensqtion of {{Refund Amount}} dollars,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8798151641715803,e5_en
+bitext-4245,help me checking the goddamn reimbursement current status,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9408835023116833,e5_en
+bitext-4615,could I check if there are any updates on my goddamn rebate?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9700517152370075,e5_en
+bitext-4343,assistance knowing if there are any news on my rebate,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8510979768283263,e5_en
+bitext-4430,assistance to see if there are any news on the refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9357786806983749,e5_en
+bitext-4101,i expect a restitution of {{Currency Symbol}}{{Refund Amount}} has it been processed already,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9091304676668972,e5_en
+bitext-4643,assistance seeing the refund current status,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9504553413470558,e5_en
+bitext-4335,can you help me to see the compensation current status?,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9279777594135799,e5_en
+bitext-4492,I try to see if there are any news on my reimbursement,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.9705333888125932,e5_en
+bitext-4115,i expect a refund of {{Refund Amount}} dollars has it been processed,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8852885625432125,e5_en
+bitext-4700,assistance seeing if there is anything wrong with my refund,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.8038063299857883,e5_en
+bitext-4454,I don't know how I can track my rebate,track_refund,en,en,Bitext CDLA-Sharing-1.0,track_refund,0.836009361876445,e5_en
+course-ar-test-0,أريد إلغاء الطلب رقم A-48213 لأنني لم أعد بحاجة إليه,cancel_order,ar,msa,SDAIA course hand-written test,cancel_order,0.42168022512936143,e5_en
+course-ar-test-1,كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,ar,gulf,SDAIA course hand-written test,change_shipping_address,0.2476645688182338,e5_en
+course-ar-test-2,ابي اكنسل الطلب قبل لا يتشحن,cancel_order,ar,gulf,SDAIA course hand-written test,cancel_order,0.5347400998230293,e5_en
+course-ar-test-3,الرجاء إلغاء طلبي فوراً قبل شحنه,cancel_order,ar,msa,SDAIA course hand-written test,cancel_order,0.46149684522952356,e5_en
+course-ar-test-8,أريد تغيير عنوان التوصيل لطلبي,change_shipping_address,ar,msa,SDAIA course hand-written test,change_shipping_address,0.6856930533249448,e5_en
+course-ar-test-9,العنوان غلط في الطلب ابي اغيره لحي النرجس,change_shipping_address,ar,gulf,SDAIA course hand-written test,change_shipping_address,0.40988120870768546,e5_en
+course-ar-test-10,انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,ar,msa,SDAIA course hand-written test,change_shipping_address,0.7324783485018097,e5_en
+course-ar-test-11,ممكن توصلون الطلب على عنوان شغلي بدل البيت؟,change_shipping_address,ar,gulf,SDAIA course hand-written test,change_shipping_address,0.5337091840150738,e5_en
+course-ar-test-64,أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,ar,msa,SDAIA course hand-written test,track_refund,0.2977983635150017,e5_en
+course-ar-test-65,ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,ar,gulf,SDAIA course hand-written test,track_refund,0.5186711895663949,e5_en
+course-ar-test-66,كيف أطلب استرجاع المبلغ؟,get_refund,ar,msa,SDAIA course hand-written test,get_refund,0.8860161345587987,e5_en
+course-ar-test-67,رجعوا لي فلوسي بسرعة لو سمحت,get_refund,ar,gulf,SDAIA course hand-written test,track_refund,0.4004506357378113,e5_en
+course-ar-test-72,تم خصم المبلغ مرتين من بطاقتي!!,payment_issue,ar,msa,SDAIA course hand-written test,track_refund,0.3460074286833535,e5_en
+course-ar-test-73,الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,ar,gulf,SDAIA course hand-written test,get_refund,0.4222731766629579,e5_en
+course-ar-test-74,فشلت عملية الدفع عدة مرات، ما المشكلة؟,payment_issue,ar,msa,SDAIA course hand-written test,payment_issue,0.8229524255035228,e5_en
+course-ar-test-75,انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,ar,gulf,SDAIA course hand-written test,cancel_order,0.34392777528034907,e5_en
+course-ar-test-100,أين طلبي؟ لم يصل حتى الآن,track_order,ar,msa,SDAIA course hand-written test,track_order,0.4801427765755607,e5_en
+course-ar-test-101,وين طلبي؟ صار له أسبوع,track_order,ar,gulf,SDAIA course hand-written test,track_order,0.329027160586131,e5_en
+course-ar-test-102,أريد تتبع الشحنة الخاصة بالطلب A-55821,track_order,ar,msa,SDAIA course hand-written test,track_order,0.3109268539689084,e5_en
+course-ar-test-103,متى يوصل طلبي؟ ابي رقم التتبع,track_order,ar,gulf,SDAIA course hand-written test,track_order,0.5144566920554163,e5_en
+course-ar-test-104,لم يصلني المبلغ المسترد حتى الآن,track_refund,ar,msa,SDAIA course hand-written test,track_refund,0.3030388294350548,e5_en
+course-ar-test-105,وين وصل استرجاع فلوسي؟,track_refund,ar,gulf,SDAIA course hand-written test,track_refund,0.381101014732227,e5_en
+course-ar-test-106,ما هي حالة طلب الاسترداد الخاص بي؟,track_refund,ar,msa,SDAIA course hand-written test,track_refund,0.402772964314966,e5_en
+course-ar-test-107,صار لي عشرة ايام وما رجع المبلغ,track_refund,ar,gulf,SDAIA course hand-written test,track_refund,0.4839473121291407,e5_en

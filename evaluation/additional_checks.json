@@ -1,0 +1,1130 @@
+[
+  {
+    "text": "The parcel is already on its way. Is cancellation still possible?",
+    "lang": "en",
+    "gold": "cancellations-0",
+    "answerable": true,
+    "output": {
+      "intent": "cancel_order",
+      "intent_ar": "إلغاء الطلب",
+      "confidence": 0.6813,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "According to Basket policy:\n\nYou can cancel an order free of charge from **My Orders** until it is marked \"Shipped\". Cancellation is immediate and the payment authorisation is released by your bank, usually within 3 to 5 business days. Orders that are already shipped cannot be cancelled; instead, refuse the delivery or request a return after delivery.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "You can cancel an order free of charge from **My Orders** until it is marked \"Shipped\". Cancellation is immediate and the payment authorisation is released by your bank, usually within 3 to 5 business days. Orders that are already shipped cannot be cancelled; instead, refuse the delivery or request a return after delivery.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-356",
+          "text": "were can i cancel purchase {{Order Number}}",
+          "intent": "cancel_order",
+          "response": "I realized, you're looking for the information on where to cancel purchase {{Order Number}}. Allow me to guide you through the process:\n\n1. Sign into Your Account: Access our platform by signing in to your {{Online Company Portal Info}}.\n2. Navigate to Your Orders: Once logged in, head over to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.\n3. Find Your Order: Look for the purchase with the order number {{Order Number}}.\n4. Initiate Cancellation: You should see an option labeled '{{Online Order Interaction}}' associated with your purchase. Click on it.\n5. Complete Any Further Steps: If prompted, answer any questions or provide the necessary feedback to facilitate the cancellation process.\n\nIf you encounter any difficulties or have further questions, our dedicated team is available during {{Customer Support Hours}} at {{Customer Support Phone Number}} or via Live Chat on our {{Website URL}}. Rest assured, we're here to assist you in every step towards your satisfaction.",
+          "score": 0.871
+        },
+        {
+          "ticket_id": "bitext-359",
+          "text": "i can no longer afford order {{Order Number}} could i cancel it",
+          "intent": "cancel_order",
+          "response": "I'm sensitive to the fact that you're facing financial difficulties and are unable to afford your purchase with order number {{Order Number}}. We prioritize your satisfaction and are here to help. Cancelling the order might be an option, but I'd also like to propose an alternative solution that could be more suitable for you. Our customer support team is highly experienced and can assist you in finding a solution that meets your needs and budget. Please reach out to them during {{Customer Support Hours}} at {{Customer Support Phone Number}} or via the Live Chat on our website at {{Website URL}}. Your happiness is our top priority, and we're committed to finding a resolution that works for you.",
+          "score": 0.869
+        },
+        {
+          "ticket_id": "bitext-380",
+          "text": "can ya help me cancel purchzse {{Order Number}}",
+          "intent": "cancel_order",
+          "response": "I'll do my best! I understand that you need assistance with canceling your purchase with the order number {{Order Number}}. To facilitate the cancellation process, please follow these steps:\n\n1. Log into your {{Online Company Portal Info}} using your credentials.\n2. Navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.\n3. Locate the purchase with the order number {{Order Number}} and click on it for more details.\n4. Look for the '{{Online Order Interaction}}' option associated with the purchase and select it.\n5. Follow any additional instructions or prompts from the system to complete the cancellation process.\n\nIf you encounter any difficulties during the process or have any questions, our dedicated support team is available to assist you. You can reach us during {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat feature on our website at {{Website URL}}. We are here to ensure a smooth cancellation experience for you.",
+          "score": 0.865
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "cancellations-0",
+          "source": "data/kb/cancellations.md",
+          "heading": "Cancelling an order",
+          "text": "You can cancel an order free of charge from **My Orders** until it is marked \"Shipped\". Cancellation is immediate and the payment authorisation is released by your bank, usually within 3 to 5 business days. Orders that are already shipped cannot be cancelled; instead, refuse the delivery or request a return after delivery."
+        },
+        {
+          "number": 2,
+          "id": "cancellations-1",
+          "source": "data/kb/cancellations.md",
+          "heading": "Cancellation fees",
+          "text": "There is no fee to cancel an order before it ships. If you refuse a delivery of a shipped order without a valid reason (wrong, damaged or late item), a return-shipping fee of 15 SAR is deducted from the refund. Large items (furniture and large appliances) have a cancellation fee of 50 SAR once they are scheduled for delivery. Pre-orders can be cancelled free of charge at any time before release."
+        },
+        {
+          "number": 3,
+          "id": "orders-1",
+          "source": "data/kb/orders.md",
+          "heading": "Changing an order",
+          "text": "You can change the items, quantities or delivery option of an order within 1 hour of placing it, as long as it is not yet marked \"Processing\". After that, cancel the order (if not shipped) and place a new one. The payment method cannot be changed after the order is placed, except for cash-on-delivery orders, which can be switched to card payment at the door."
+        }
+      ],
+      "latency_ms": 92.1
+    },
+    "passed": true
+  },
+  {
+    "text": "I moved house after dispatch. Can I switch the delivery to another city?",
+    "lang": "en",
+    "gold": "shipping-3",
+    "answerable": true,
+    "output": {
+      "intent": "change_shipping_address",
+      "intent_ar": "تعديل عنوان الشحن",
+      "confidence": 0.8925,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "According to Basket policy:\n\nThe delivery address can be changed from **My Orders** until the order is marked \"Shipped\". After shipping, you can only redirect the parcel to a pickup point in the same city, using the courier link in the delivery SMS.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "The delivery address can be changed from **My Orders** until the order is marked \"Shipped\". After shipping, you can only redirect the parcel to a pickup point in the same city, using the courier link in the delivery SMS.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-1116",
+          "text": "can ya help me to modify the delivery address",
+          "intent": "change_shipping_address",
+          "response": "I'll make it happen! I can assist you with updating your delivery address. To get started, please provide me with your current address and the new address you would like to change it to.",
+          "score": 0.887
+        },
+        {
+          "ticket_id": "bitext-618",
+          "text": "could you tell me more about changing the delivery address?",
+          "intent": "change_shipping_address",
+          "response": "I'm happy to help! If you need to change your delivery address, we can definitely assist you with that. Simply provide us with the new address details, and we will update it for you. It's important to note that if your order has already been shipped, we might not be able to make any changes to the address. However, we can always try our best to help you out. Just let us know what changes you need, and we'll take care of it for you.",
+          "score": 0.885
+        },
+        {
+          "ticket_id": "bitext-1241",
+          "text": "can you tell me about changing the delivery address?",
+          "intent": "change_shipping_address",
+          "response": "Changing your delivery address is a simple process that we can assist you with. When you need to update your address, please reach out to our customer support team. They will guide you through the necessary steps to ensure your new address is updated in our system.",
+          "score": 0.883
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "shipping-3",
+          "source": "data/kb/shipping.md",
+          "heading": "Changing the shipping address",
+          "text": "The delivery address can be changed from **My Orders** until the order is marked \"Shipped\". After shipping, you can only redirect the parcel to a pickup point in the same city, using the courier link in the delivery SMS."
+        },
+        {
+          "number": 2,
+          "id": "orders-1",
+          "source": "data/kb/orders.md",
+          "heading": "Changing an order",
+          "text": "You can change the items, quantities or delivery option of an order within 1 hour of placing it, as long as it is not yet marked \"Processing\". After that, cancel the order (if not shipped) and place a new one. The payment method cannot be changed after the order is placed, except for cash-on-delivery orders, which can be switched to card payment at the door."
+        },
+        {
+          "number": 3,
+          "id": "shipping-2",
+          "source": "data/kb/shipping.md",
+          "heading": "Setting up a shipping address",
+          "text": "Add addresses under **Account → Addresses**. A valid address needs a building number, street, district, city and postal code, or a national short address (for example RRRD2929). You can save up to 10 addresses and choose a default one."
+        }
+      ],
+      "latency_ms": 47.8
+    },
+    "passed": true
+  },
+  {
+    "text": "Payment was unsuccessful and the bank shows a pending debit. When is it released?",
+    "lang": "en",
+    "gold": "payments-1",
+    "answerable": true,
+    "output": {
+      "intent": "track_refund",
+      "intent_ar": "تتبّع الاسترداد",
+      "confidence": 0.4459,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "According to Basket policy:\n\nA payment may fail because of insufficient balance, an expired card, a 3-D Secure verification timeout, or a bank limit on online purchases. Your order is kept for 30 minutes so you can retry with the same or another method. If the payment failed but money was deducted, it is an authorisation hold that your bank will release automatically within 3 to 5 business days.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "A payment may fail because of insufficient balance, an expired card, a 3-D Secure verification timeout, or a bank limit on online purchases. Your order is kept for 30 minutes so you can retry with the same or another method. If the payment failed but money was deducted, it is an authorisation hold that your bank will release automatically within 3 to 5 business days.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-4384",
+          "text": "i expect a rebate of {{Currency Symbol}}{{Refund Amount}} has it been processd already",
+          "intent": "track_refund",
+          "response": "Thank you for informing us about your expected rebate of {{Currency Symbol}}{{Refund Amount}}. I understand how important it is for you to ensure its processing. Let me check the current status of your rebate right away. While I do, could you please share any relevant details or confirmation numbers related to your rebate? This will assist me in providing you with the most accurate and up-to-date information. Rest assured, I'm here to help you every step of the way.",
+          "score": 0.839
+        },
+        {
+          "ticket_id": "bitext-4191",
+          "text": "I expect a rebate of {{Currency Symbol}}{{Refund Amount}}, was it processed",
+          "intent": "track_refund",
+          "response": "Thank you for your message about your expected rebate of {{Currency Symbol}}{{Refund Amount}}. I understand how important it is for you to know if it has been processed. Allow me a moment to check the status of your rebate and provide you with an accurate update. Please bear with me while I gather this information, and I appreciate your patience.",
+          "score": 0.837
+        },
+        {
+          "ticket_id": "bitext-4512",
+          "text": "I expect a compensation of {{Currency Symbol}}{{Refund Amount}}, was it processed already",
+          "intent": "track_refund",
+          "response": "I'm on your side the importance of your compensation request, amounting to {{Currency Symbol}}{{Refund Amount}}. Your peace of mind is our utmost priority. Please allow me a moment to verify the current status of your compensation and ensure you receive accurate information. Thank you for your patience and understanding.",
+          "score": 0.836
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "payments-1",
+          "source": "data/kb/payments.md",
+          "heading": "Payment failed",
+          "text": "A payment may fail because of insufficient balance, an expired card, a 3-D Secure verification timeout, or a bank limit on online purchases. Your order is kept for 30 minutes so you can retry with the same or another method. If the payment failed but money was deducted, it is an authorisation hold that your bank will release automatically within 3 to 5 business days."
+        },
+        {
+          "number": 2,
+          "id": "payments-2",
+          "source": "data/kb/payments.md",
+          "heading": "Charged twice",
+          "text": "If you see two charges for one order, one of them is usually a pending authorisation that will disappear within 3 to 5 business days. If both charges are still shown as completed after 5 business days, contact us with the order number and a bank statement screenshot; we will refund the duplicate charge within 2 business days of verification."
+        },
+        {
+          "number": 3,
+          "id": "refunds-2",
+          "source": "data/kb/refunds.md",
+          "heading": "Refund timelines",
+          "text": "Refunds are issued after the returned item passes inspection, usually within 2 business days of arriving at our warehouse. After that:\n- Basket Wallet: within 24 hours.\n- mada, Visa and Mastercard cards: 5 to 7 business days, depending on your bank.\n- Apple Pay and STC Pay: 3 to 5 business days.\n- Bank transfer (IBAN): up to 10 business days."
+        }
+      ],
+      "latency_ms": 52.5
+    },
+    "passed": true
+  },
+  {
+    "text": "Two settled card charges remain a week later. What evidence should I send?",
+    "lang": "en",
+    "gold": "payments-2",
+    "answerable": true,
+    "output": {
+      "intent": "track_refund",
+      "intent_ar": "تتبّع الاسترداد",
+      "confidence": 0.6044,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "According to Basket policy:\n\nIf you see two charges for one order, one of them is usually a pending authorisation that will disappear within 3 to 5 business days. If both charges are still shown as completed after 5 business days, contact us with the order number and a bank statement screenshot; we will refund the duplicate charge within 2 business days of verification.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "If you see two charges for one order, one of them is usually a pending authorisation that will disappear within 3 to 5 business days. If both charges are still shown as completed after 5 business days, contact us with the order number and a bank statement screenshot; we will refund the duplicate charge within 2 business days of verification.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-4297",
+          "text": "could you help me check the status of my restitution?",
+          "intent": "track_refund",
+          "response": "Of course, I'm here to assist you with checking the status of your restitution. I understand how important it is for you to stay updated. To provide you with accurate information, may I kindly ask you to provide me with your refund reference or any other relevant details that you have? This will enable me to quickly locate your account and provide you with the most up-to-date information regarding the status of your restitution. Thank you for your cooperation, and I'll be waiting for your response.\"",
+          "score": 0.844
+        },
+        {
+          "ticket_id": "bitext-4589",
+          "text": "check my refund status",
+          "intent": "track_refund",
+          "response": "I'm sensitive to the fact that you would like to check the status of your refund. Rest assured, I'm here to assist you. To provide you with accurate information, could you please provide me with the following details: your name, email address, and the date of your refund request? This will enable me to locate your refund in our system and provide you with the most up-to-date information. Thank you for your cooperation.",
+          "score": 0.839
+        },
+        {
+          "ticket_id": "bitext-4511",
+          "text": "how do i see if there are any news on the restitution",
+          "intent": "track_refund",
+          "response": "I acknowledge that you're looking for guidance on how to check for any updates on your restitution. Rest assured, I'm here to assist you. To view the latest information on your restitution, I recommend accessing your account on our website. Once logged in, navigate to the \"Refunds\" or \"Payment History\" section. You should be able to find detailed information about the status of your restitution and any recent updates. If you encounter any difficulties or have any further questions, don't hesitate to reach out to our customer support team. We're available to provide further assistance and ensure you stay informed throughout the process.",
+          "score": 0.839
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "payments-2",
+          "source": "data/kb/payments.md",
+          "heading": "Charged twice",
+          "text": "If you see two charges for one order, one of them is usually a pending authorisation that will disappear within 3 to 5 business days. If both charges are still shown as completed after 5 business days, contact us with the order number and a bank statement screenshot; we will refund the duplicate charge within 2 business days of verification."
+        },
+        {
+          "number": 2,
+          "id": "refunds-2",
+          "source": "data/kb/refunds.md",
+          "heading": "Refund timelines",
+          "text": "Refunds are issued after the returned item passes inspection, usually within 2 business days of arriving at our warehouse. After that:\n- Basket Wallet: within 24 hours.\n- mada, Visa and Mastercard cards: 5 to 7 business days, depending on your bank.\n- Apple Pay and STC Pay: 3 to 5 business days.\n- Bank transfer (IBAN): up to 10 business days."
+        },
+        {
+          "number": 3,
+          "id": "refunds-1",
+          "source": "data/kb/refunds.md",
+          "heading": "How to request a refund",
+          "text": "Open **My Orders**, select the order, choose **Return or refund**, pick the items and the reason, and submit. You will receive a return label by email within 2 hours. Hand the package to any courier drop-off point within 7 days of receiving the label. Refunds for orders paid with cash on delivery are sent to your Basket Wallet or to a bank account (IBAN) you provide."
+        }
+      ],
+      "latency_ms": 49.6
+    },
+    "passed": true
+  },
+  {
+    "text": "How many hours do I wait for my return shipping label?",
+    "lang": "en",
+    "gold": "refunds-1",
+    "answerable": true,
+    "output": {
+      "intent": "track_refund",
+      "intent_ar": "تتبّع الاسترداد",
+      "confidence": 0.4326,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "According to Basket policy:\n\nOpen **My Orders**, select the order, choose **Return or refund**, pick the items and the reason, and submit. You will receive a return label by email within 2 hours. Hand the package to any courier drop-off point within 7 days of receiving the label. Refunds for orders paid with cash on delivery are sent to your Basket Wallet or to a bank account (IBAN) you provide.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "Open **My Orders**, select the order, choose **Return or refund**, pick the items and the reason, and submit. You will receive a return label by email within 2 hours. Hand the package to any courier drop-off point within 7 days of receiving the label. Refunds for orders paid with cash on delivery are sent to your Basket Wallet or to a bank account (IBAN) you provide.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-3867",
+          "text": "hlw do i check the ETA of purchase {{Order Number}}",
+          "intent": "track_order",
+          "response": "Thank you for reaching out! I'm here to assist you with checking the estimated time of arrival (ETA) for your purchase with the purchase number {{Order Number}}. To view the ETA, please visit the '{{Order Tracking}}' section on our website. If you have any other questions or need further guidance, feel free to let me know. I'm here to ensure you have a seamless experience!",
+          "score": 0.849
+        },
+        {
+          "ticket_id": "bitext-3670",
+          "text": "can ya help me check order {{Order Number}} current status",
+          "intent": "track_order",
+          "response": "Thank you for reaching out! I'm here to assist you with checking the current status of your order with the order number {{Order Number}}. To provide you with accurate information, could you please verify your account details and any relevant information associated with your order? This will help me ensure that I provide you with the most up-to-date information. Additionally, if you have any other questions or concerns, feel free to let me know. My goal is to provide you with a seamless experience and address your needs effectively.",
+          "score": 0.849
+        },
+        {
+          "ticket_id": "bitext-597",
+          "text": "can you tell me about a shipping address update?",
+          "intent": "change_shipping_address",
+          "response": "Absolutely! If you need to update your shipping address, you can easily do so by accessing your account settings on our website. Simply log in, navigate to the \"Shipping Address\" section, and update the necessary information. Alternatively, you can contact our customer support team and they will be happy to assist you with updating your shipping address.",
+          "score": 0.846
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "refunds-1",
+          "source": "data/kb/refunds.md",
+          "heading": "How to request a refund",
+          "text": "Open **My Orders**, select the order, choose **Return or refund**, pick the items and the reason, and submit. You will receive a return label by email within 2 hours. Hand the package to any courier drop-off point within 7 days of receiving the label. Refunds for orders paid with cash on delivery are sent to your Basket Wallet or to a bank account (IBAN) you provide."
+        },
+        {
+          "number": 2,
+          "id": "orders-2",
+          "source": "data/kb/orders.md",
+          "heading": "Tracking an order",
+          "text": "Open **My Orders** and select the order to see its status and the courier tracking link. Statuses are: Placed, Processing, Shipped, Out for delivery, Delivered. Tracking information can take up to 24 hours to appear after an order is marked \"Shipped\". If an order is more than 3 business days past its estimated delivery date, contact us and we will open an investigation with the courier."
+        },
+        {
+          "number": 3,
+          "id": "refunds-2",
+          "source": "data/kb/refunds.md",
+          "heading": "Refund timelines",
+          "text": "Refunds are issued after the returned item passes inspection, usually within 2 business days of arriving at our warehouse. After that:\n- Basket Wallet: within 24 hours.\n- mada, Visa and Mastercard cards: 5 to 7 business days, depending on your bank.\n- Apple Pay and STC Pay: 3 to 5 business days.\n- Bank transfer (IBAN): up to 10 business days."
+        }
+      ],
+      "latency_ms": 44.2
+    },
+    "passed": true
+  },
+  {
+    "text": "A refund is marked issued but my bank has not credited it. Who do I contact?",
+    "lang": "en",
+    "gold": "refunds-3",
+    "answerable": true,
+    "output": {
+      "intent": "get_refund",
+      "intent_ar": "طلب استرداد",
+      "confidence": 0.6099,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "According to Basket policy:\n\nThe status of a refund is shown under **My Orders → Returns**. Statuses are: Requested, In transit, Received, Approved, Refunded. If a refund shows \"Refunded\" but has not appeared in your account after the timeline above, contact your bank with the refund reference number shown on the order page, or contact us and we will send a bank confirmation letter.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "The status of a refund is shown under **My Orders → Returns**. Statuses are: Requested, In transit, Received, Approved, Refunded. If a refund shows \"Refunded\" but has not appeared in your account after the timeline above, contact your bank with the refund reference number shown on the order page, or contact us and we will send a bank confirmation letter.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-1952",
+          "text": "where could I request refunds?",
+          "intent": "get_refund",
+          "response": "I've observed that you're seeking information on where you can request refunds. To initiate the refund process, it would be best to reach out to our dedicated customer support team. They have the expertise and knowledge to guide you through the necessary steps. You can contact them at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. Rest assured, they will be more than happy to assist you with your refund request and ensure a smooth resolution to your concern.",
+          "score": 0.872
+        },
+        {
+          "ticket_id": "bitext-4589",
+          "text": "check my refund status",
+          "intent": "track_refund",
+          "response": "I'm sensitive to the fact that you would like to check the status of your refund. Rest assured, I'm here to assist you. To provide you with accurate information, could you please provide me with the following details: your name, email address, and the date of your refund request? This will enable me to locate your refund in our system and provide you with the most up-to-date information. Thank you for your cooperation.",
+          "score": 0.867
+        },
+        {
+          "ticket_id": "bitext-4330",
+          "text": "need assistance checking my refund current status",
+          "intent": "track_refund",
+          "response": "I've ascertained that you require assistance in checking the current status of your refund. Rest assured, I'm here to help. To provide you with accurate information, could you please provide me with the following details: your full name, the date of your refund request, and any reference numbers or order IDs associated with the refund? Once I have these details, I will promptly investigate the status of your refund and provide you with an update. Thank you for your patience and cooperation in resolving this matter.",
+          "score": 0.866
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "refunds-3",
+          "source": "data/kb/refunds.md",
+          "heading": "Tracking a refund",
+          "text": "The status of a refund is shown under **My Orders → Returns**. Statuses are: Requested, In transit, Received, Approved, Refunded. If a refund shows \"Refunded\" but has not appeared in your account after the timeline above, contact your bank with the refund reference number shown on the order page, or contact us and we will send a bank confirmation letter."
+        },
+        {
+          "number": 2,
+          "id": "refunds-1",
+          "source": "data/kb/refunds.md",
+          "heading": "How to request a refund",
+          "text": "Open **My Orders**, select the order, choose **Return or refund**, pick the items and the reason, and submit. You will receive a return label by email within 2 hours. Hand the package to any courier drop-off point within 7 days of receiving the label. Refunds for orders paid with cash on delivery are sent to your Basket Wallet or to a bank account (IBAN) you provide."
+        },
+        {
+          "number": 3,
+          "id": "refunds-2",
+          "source": "data/kb/refunds.md",
+          "heading": "Refund timelines",
+          "text": "Refunds are issued after the returned item passes inspection, usually within 2 business days of arriving at our warehouse. After that:\n- Basket Wallet: within 24 hours.\n- mada, Visa and Mastercard cards: 5 to 7 business days, depending on your bank.\n- Apple Pay and STC Pay: 3 to 5 business days.\n- Bank transfer (IBAN): up to 10 business days."
+        }
+      ],
+      "latency_ms": 112.1
+    },
+    "passed": true
+  },
+  {
+    "text": "طلبي طلع مع شركة التوصيل، باقي يمديني ألغيه؟",
+    "lang": "ar",
+    "gold": "arabic-1",
+    "answerable": true,
+    "output": {
+      "intent": "change_shipping_address",
+      "intent_ar": "تعديل عنوان الشحن",
+      "confidence": 0.3204,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "بحسب سياسة Basket:\n\nيمكن إلغاء الطلب مجانًا من «طلباتي» قبل أن تصبح حالته «تم الشحن». الإلغاء فوري، ويحرر البنك حجز مبلغ الدفع عادة خلال 3 إلى 5 أيام عمل. بعد الشحن لا يمكن إلغاء الطلب؛ يمكن رفض التسليم أو طلب إرجاع بعد الاستلام.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "يمكن إلغاء الطلب مجانًا من «طلباتي» قبل أن تصبح حالته «تم الشحن». الإلغاء فوري، ويحرر البنك حجز مبلغ الدفع عادة خلال 3 إلى 5 أيام عمل. بعد الشحن لا يمكن إلغاء الطلب؛ يمكن رفض التسليم أو طلب إرجاع بعد الاستلام.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-657",
+          "text": "want help tyo modify my shipping address",
+          "intent": "change_shipping_address",
+          "response": "Of course! We're here to assist you with modifying your shipping address. To proceed, please provide us with the updated address details, and we'll make sure to update it in our system for your order. You can either contact our customer support team directly or make the changes online through your account's shipping address section. Let us know if there's anything else we can help you with!",
+          "score": 0.847
+        },
+        {
+          "ticket_id": "bitext-288",
+          "text": "can uhelp me cancelliung order {{Order Number}}",
+          "intent": "cancel_order",
+          "response": "I've realized that you need help canceling order {{Order Number}}. I'm here to assist you throughout the process and provide the necessary guidance. Let's get started!",
+          "score": 0.838
+        },
+        {
+          "ticket_id": "bitext-345",
+          "text": "help me cancel ordere {{Order Number}}",
+          "intent": "cancel_order",
+          "response": "I realized you need help canceling order {{Order Number}}. We apologize for any inconvenience caused by this challenge. Let's work together to find a solution:\n\n1. Access Your Account: Please log into your {{Online Company Portal Info}} using your credentials.\n2. Locate Your Orders: Once you're logged in, navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.\n3. Identify the Relevant Order: Search for the order with the number {{Order Number}}. Click on it to view the details.\n4. Initiate the Cancellation: Look for the option labeled '{{Online Order Interaction}}' associated with the specific order. Please select it to proceed.\n5. Confirm the Cancellation: Follow any additional steps that the system prompts to finalize the cancellation process.\n\nIf you encounter any difficulties or have further questions, our dedicated support team is available to assist you during {{Customer Support Hours}}. You can reach out to us via phone at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. We appreciate your understanding as we work towards resolving this issue to your satisfaction.",
+          "score": 0.837
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-1",
+          "source": "data/kb/arabic.md",
+          "heading": "إلغاء الطلب",
+          "text": "يمكن إلغاء الطلب مجانًا من «طلباتي» قبل أن تصبح حالته «تم الشحن». الإلغاء فوري، ويحرر البنك حجز مبلغ الدفع عادة خلال 3 إلى 5 أيام عمل. بعد الشحن لا يمكن إلغاء الطلب؛ يمكن رفض التسليم أو طلب إرجاع بعد الاستلام."
+        },
+        {
+          "number": 2,
+          "id": "arabic-0",
+          "source": "data/kb/arabic.md",
+          "heading": "تتبع الطلب",
+          "text": "افتح «طلباتي» واختر الطلب لعرض حالته ورابط تتبع شركة التوصيل. الحالات: تم الطلب، قيد التجهيز، تم الشحن، خرج للتوصيل، تم التسليم. قد تحتاج بيانات التتبع إلى 24 ساعة بعد الشحن لتظهر. إذا تجاوز الطلب موعد التسليم المتوقع بأكثر من 3 أيام عمل، تواصل مع الدعم لفتح تحقيق مع شركة التوصيل."
+        },
+        {
+          "number": 3,
+          "id": "arabic-2",
+          "source": "data/kb/arabic.md",
+          "heading": "تغيير عنوان الشحن",
+          "text": "يمكن تغيير عنوان الطلب من «طلباتي» قبل الشحن. بعد الشحن يمكن فقط تحويل الطرد إلى نقطة استلام داخل المدينة نفسها من خلال رابط شركة التوصيل في رسالة الشحن."
+        }
+      ],
+      "latency_ms": 101.3
+    },
+    "passed": true
+  },
+  {
+    "text": "الشحنة بالطريق وأبي أغير عنوانها لمدينة ثانية، مسموح؟",
+    "lang": "ar",
+    "gold": "arabic-2",
+    "answerable": true,
+    "output": {
+      "intent": "change_shipping_address",
+      "intent_ar": "تعديل عنوان الشحن",
+      "confidence": 0.6952,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "بحسب سياسة Basket:\n\nيمكن تغيير عنوان الطلب من «طلباتي» قبل الشحن. بعد الشحن يمكن فقط تحويل الطرد إلى نقطة استلام داخل المدينة نفسها من خلال رابط شركة التوصيل في رسالة الشحن.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "يمكن تغيير عنوان الطلب من «طلباتي» قبل الشحن. بعد الشحن يمكن فقط تحويل الطرد إلى نقطة استلام داخل المدينة نفسها من خلال رابط شركة التوصيل في رسالة الشحن.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-3541",
+          "text": "eta of order {{Order Number}}",
+          "intent": "track_order",
+          "response": "Thank you for your inquiry! I understand that you would like to know the estimated time of arrival (ETA) for your order with the order number {{Order Number}}. To provide you with accurate information about the ETA, I kindly request you to reach out to our customer support team. They are equipped with the necessary tools to assist you further and provide real-time updates on the delivery status of your order. You can contact them at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. They will be more than happy to assist you with your specific order and provide you with the most up-to-date information. Let me know if there is anything else I can help you with. My goal is to ensure you have a seamless shopping experience!",
+          "score": 0.792
+        },
+        {
+          "ticket_id": "bitext-1530",
+          "text": "reimbusre {{Currency Symbol}}{{Refund Amount}}",
+          "intent": "get_refund",
+          "response": "I acknowledge that you are looking to claim a reimbursement of ${{Refund Amount}}. To initiate this process, I recommend reaching out to our customer support team. They will guide you on the specific steps and requirements for claiming your reimbursement. They can be contacted through various channels such as phone, email, or live chat. Please provide them with all the necessary details and documentation related to your purchase and reimbursement request for a smooth and efficient resolution. If you have any further questions or need assistance, feel free to let me know.",
+          "score": 0.79
+        },
+        {
+          "ticket_id": "bitext-3547",
+          "text": "can i see tye eta of purchase {{Order Number}}",
+          "intent": "track_order",
+          "response": "Thanks for getting in touch! I grasp that you would like to check the estimated time of arrival (ETA) for your purchase with purchase number {{Order Number}}. To provide you with the most accurate information, I kindly ask you to visit the '{{Order Tracking}}' section on our website. This section will display the latest updates on your purchase, including the ETA. If you have any further questions or need assistance with anything else, please feel free to let me know. I'm here to help!\"",
+          "score": 0.789
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-2",
+          "source": "data/kb/arabic.md",
+          "heading": "تغيير عنوان الشحن",
+          "text": "يمكن تغيير عنوان الطلب من «طلباتي» قبل الشحن. بعد الشحن يمكن فقط تحويل الطرد إلى نقطة استلام داخل المدينة نفسها من خلال رابط شركة التوصيل في رسالة الشحن."
+        },
+        {
+          "number": 2,
+          "id": "arabic-4",
+          "source": "data/kb/arabic.md",
+          "heading": "الخصم مرتين",
+          "text": "عند ظهور خصمين لطلب واحد، يكون أحدهما عادة حجز تفويض يختفي خلال 3 إلى 5 أيام عمل. إذا بقي الخصمان مكتملين بعد 5 أيام عمل، تواصل مع الدعم برقم الطلب وصورة كشف الحساب. بعد التحقق يعاد الخصم المكرر خلال يومي عمل. لا تشارك رقم البطاقة الكامل أو رمز CVV أو كلمة المرور المؤقتة OTP."
+        },
+        {
+          "number": 3,
+          "id": "arabic-8",
+          "source": "data/kb/arabic.md",
+          "heading": "متابعة استرداد سابق",
+          "text": "يمكن متابعة حالة الاسترداد في «طلباتي ← المرتجعات». الحالات: مطلوب، في الطريق، مستلم، معتمد، تم الاسترداد. إذا ظهرت «تم الاسترداد» ولم يصل المبلغ بعد المدة المحددة لطريقة الدفع، تواصل مع البنك باستخدام رقم مرجع الاسترداد في صفحة الطلب، أو اطلب من الدعم خطاب تأكيد بنكي. المساعد لا يستطيع الاطلاع على حسابك أو تحديد حالة استردادك الفعلية."
+        }
+      ],
+      "latency_ms": 52.3
+    },
+    "passed": true
+  },
+  {
+    "text": "العملية فشلت والبنك حاط المبلغ معلق، متى يرجع متاح؟",
+    "lang": "ar",
+    "gold": "arabic-3",
+    "answerable": true,
+    "output": {
+      "intent": "payment_issue",
+      "intent_ar": "مشكلة دفع",
+      "confidence": 0.4478,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "بحسب سياسة Basket:\n\nقد يفشل الدفع بسبب عدم كفاية الرصيد، أو انتهاء البطاقة، أو انتهاء مهلة التحقق البنكي، أو حدود الشراء الإلكتروني. يبقى الطلب محفوظًا 30 دقيقة لإعادة المحاولة. إذا فشل الدفع مع خصم المبلغ، فقد يكون حجز تفويض يعيد البنك تحريره تلقائيًا خلال 3 إلى 5 أيام عمل.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "قد يفشل الدفع بسبب عدم كفاية الرصيد، أو انتهاء البطاقة، أو انتهاء مهلة التحقق البنكي، أو حدود الشراء الإلكتروني. يبقى الطلب محفوظًا 30 دقيقة لإعادة المحاولة. إذا فشل الدفع مع خصم المبلغ، فقد يكون حجز تفويض يعيد البنك تحريره تلقائيًا خلال 3 إلى 5 أيام عمل.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-2411",
+          "text": "solve payment error",
+          "intent": "payment_issue",
+          "response": "I'm sorry to hear that you're facing a payment error. Don't worry, I'm here to assist you in resolving this issue. To better understand the problem and provide you with an effective solution, could you please provide me with more details about the error you encountered? This will enable me to guide you through the troubleshooting process step by step. Together, we'll work towards resolving this payment error and ensuring a smooth transaction. Thank you for bringing this to our attention, and I appreciate your patience and cooperation.",
+          "score": 0.788
+        },
+        {
+          "ticket_id": "bitext-1614",
+          "text": "reimburse {{Refund Amount}} dollar",
+          "intent": "get_refund",
+          "response": "I understand your request for a reimbursement of ${{Refund Amount}}, and I'm here to assist you in resolving this matter. To ensure the efficient processing of your request, I would recommend reaching out to our customer support team directly. They have the necessary tools and expertise to handle such cases promptly and accurately. You can contact our customer support team at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. Rest assured, they will guide you through the reimbursement process and address any additional concerns you may have. We appreciate your patience and cooperation in this matter.",
+          "score": 0.785
+        },
+        {
+          "ticket_id": "bitext-3169",
+          "text": "the payment did not go through, report an error",
+          "intent": "payment_issue",
+          "response": "I'm here to provide you with the necessary assistance to report the error you encountered when your payment did not go through. Your feedback is essential in improving our payment system and ensuring a smooth experience for all our customers. To help us assist you better, could you kindly share specific details about the error message or any error codes you received? This will enable us to identify the issue more accurately and work towards a swift resolution. Thank you for bringing this to our attention, and we appreciate your patience as we investigate and rectify the problem.",
+          "score": 0.784
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-3",
+          "source": "data/kb/arabic.md",
+          "heading": "فشل الدفع",
+          "text": "قد يفشل الدفع بسبب عدم كفاية الرصيد، أو انتهاء البطاقة، أو انتهاء مهلة التحقق البنكي، أو حدود الشراء الإلكتروني. يبقى الطلب محفوظًا 30 دقيقة لإعادة المحاولة. إذا فشل الدفع مع خصم المبلغ، فقد يكون حجز تفويض يعيد البنك تحريره تلقائيًا خلال 3 إلى 5 أيام عمل."
+        },
+        {
+          "number": 2,
+          "id": "arabic-7",
+          "source": "data/kb/arabic.md",
+          "heading": "مدة الاسترداد",
+          "text": "يصدر الاسترداد بعد فحص المنتج المرتجع، عادة خلال يومي عمل من وصوله إلى المستودع. بعد إصدار الاسترداد تصل مبالغ المحفظة خلال 24 ساعة، ومدى وفيزا وماستركارد خلال 5 إلى 7 أيام عمل، وأبل باي وSTC Pay خلال 3 إلى 5 أيام عمل، والتحويل البنكي خلال 10 أيام عمل كحد أقصى."
+        },
+        {
+          "number": 3,
+          "id": "arabic-6",
+          "source": "data/kb/arabic.md",
+          "heading": "طلب استرداد جديد",
+          "text": "افتح «طلباتي»، واختر الطلب، ثم «إرجاع أو استرداد»، وحدد المنتجات والسبب وأرسل الطلب. يصلك ملصق الإرجاع بالبريد خلال ساعتين. سلم الطرد لنقطة شركة التوصيل خلال 7 أيام من استلام الملصق. مبالغ طلبات الدفع عند الاستلام تعاد إلى محفظة Basket أو حساب بنكي برقم IBAN تقدمه."
+        }
+      ],
+      "latency_ms": 49.8
+    },
+    "passed": true
+  },
+  {
+    "text": "عندي عمليتين خصم مكتملة لنفس الطلب من أسبوع، وش أرسل للدعم؟",
+    "lang": "ar",
+    "gold": "arabic-4",
+    "answerable": true,
+    "output": {
+      "intent": "get_refund",
+      "intent_ar": "طلب استرداد",
+      "confidence": 0.457,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "بحسب سياسة Basket:\n\nعند ظهور خصمين لطلب واحد، يكون أحدهما عادة حجز تفويض يختفي خلال 3 إلى 5 أيام عمل. إذا بقي الخصمان مكتملين بعد 5 أيام عمل، تواصل مع الدعم برقم الطلب وصورة كشف الحساب. بعد التحقق يعاد الخصم المكرر خلال يومي عمل. لا تشارك رقم البطاقة الكامل أو رمز CVV أو كلمة المرور المؤقتة OTP.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "عند ظهور خصمين لطلب واحد، يكون أحدهما عادة حجز تفويض يختفي خلال 3 إلى 5 أيام عمل. إذا بقي الخصمان مكتملين بعد 5 أيام عمل، تواصل مع الدعم برقم الطلب وصورة كشف الحساب. بعد التحقق يعاد الخصم المكرر خلال يومي عمل. لا تشارك رقم البطاقة الكامل أو رمز CVV أو كلمة المرور المؤقتة OTP.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-1673",
+          "text": "how to request reimbursements of my money",
+          "intent": "get_refund",
+          "response": "Certainly, I understand your inquiry about how to request reimbursements for your money. It's important to us that you feel supported throughout this process. To begin, I recommend contacting our customer support team directly. They have the expertise and resources to guide you through the necessary steps and provide the most accurate information. They can be reached during {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. Remember to gather and provide any relevant documentation, such as purchase receipts or order numbers, to facilitate the reimbursement request. Rest assured, we are committed to resolving your concern and ensuring you receive the necessary assistance.",
+          "score": 0.839
+        },
+        {
+          "ticket_id": "bitext-2101",
+          "text": "how long until I receive areimbursement of money?",
+          "intent": "get_refund",
+          "response": "I understand your concern regarding the timeframe for receiving a reimbursement of your money. The duration for processing reimbursements can vary depending on several factors, such as the payment method used and the specific policies of the company or service provider. To provide you with accurate information, I suggest reaching out to our customer support team. They will be able to review your case and give you an estimated timeline for the reimbursement process. Our dedicated team is available {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. They will guide you through the process and ensure that you receive the reimbursement in a timely manner. Rest assured, we value your satisfaction and will make every effort to expedite the reimbursement process for you.",
+          "score": 0.834
+        },
+        {
+          "ticket_id": "bitext-2198",
+          "text": "want assistance demanding compensations fo money",
+          "intent": "get_refund",
+          "response": "I can sense that you are seeking assistance in demanding compensation for your money. It can be frustrating when there is a need to request compensation, but rest assured that I'm here to support you. To provide you with the best guidance, could you please provide me with more details about the situation? This will help me understand the specific circumstances and guide you towards the appropriate course of action. Your satisfaction is important to us, and I'm committed to ensuring that you receive the assistance you need throughout this process.",
+          "score": 0.834
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-4",
+          "source": "data/kb/arabic.md",
+          "heading": "الخصم مرتين",
+          "text": "عند ظهور خصمين لطلب واحد، يكون أحدهما عادة حجز تفويض يختفي خلال 3 إلى 5 أيام عمل. إذا بقي الخصمان مكتملين بعد 5 أيام عمل، تواصل مع الدعم برقم الطلب وصورة كشف الحساب. بعد التحقق يعاد الخصم المكرر خلال يومي عمل. لا تشارك رقم البطاقة الكامل أو رمز CVV أو كلمة المرور المؤقتة OTP."
+        },
+        {
+          "number": 2,
+          "id": "arabic-3",
+          "source": "data/kb/arabic.md",
+          "heading": "فشل الدفع",
+          "text": "قد يفشل الدفع بسبب عدم كفاية الرصيد، أو انتهاء البطاقة، أو انتهاء مهلة التحقق البنكي، أو حدود الشراء الإلكتروني. يبقى الطلب محفوظًا 30 دقيقة لإعادة المحاولة. إذا فشل الدفع مع خصم المبلغ، فقد يكون حجز تفويض يعيد البنك تحريره تلقائيًا خلال 3 إلى 5 أيام عمل."
+        },
+        {
+          "number": 3,
+          "id": "arabic-0",
+          "source": "data/kb/arabic.md",
+          "heading": "تتبع الطلب",
+          "text": "افتح «طلباتي» واختر الطلب لعرض حالته ورابط تتبع شركة التوصيل. الحالات: تم الطلب، قيد التجهيز، تم الشحن، خرج للتوصيل، تم التسليم. قد تحتاج بيانات التتبع إلى 24 ساعة بعد الشحن لتظهر. إذا تجاوز الطلب موعد التسليم المتوقع بأكثر من 3 أيام عمل، تواصل مع الدعم لفتح تحقيق مع شركة التوصيل."
+        }
+      ],
+      "latency_ms": 49.9
+    },
+    "passed": true
+  },
+  {
+    "text": "قدمت إرجاع، كم أنتظر لين يرسل لي ملصق الشحن؟",
+    "lang": "ar",
+    "gold": "arabic-6",
+    "answerable": true,
+    "output": {
+      "intent": "track_refund",
+      "intent_ar": "تتبّع الاسترداد",
+      "confidence": 0.3633,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "بحسب سياسة Basket:\n\nافتح «طلباتي»، واختر الطلب، ثم «إرجاع أو استرداد»، وحدد المنتجات والسبب وأرسل الطلب. يصلك ملصق الإرجاع بالبريد خلال ساعتين. سلم الطرد لنقطة شركة التوصيل خلال 7 أيام من استلام الملصق. مبالغ طلبات الدفع عند الاستلام تعاد إلى محفظة Basket أو حساب بنكي برقم IBAN تقدمه.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "افتح «طلباتي»، واختر الطلب، ثم «إرجاع أو استرداد»، وحدد المنتجات والسبب وأرسل الطلب. يصلك ملصق الإرجاع بالبريد خلال ساعتين. سلم الطرد لنقطة شركة التوصيل خلال 7 أيام من استلام الملصق. مبالغ طلبات الدفع عند الاستلام تعاد إلى محفظة Basket أو حساب بنكي برقم IBAN تقدمه.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-2065",
+          "text": "how long till i get my damn reimbursement",
+          "intent": "get_refund",
+          "response": "I'm fully aware of your frustration and impatience regarding the reimbursement process. I apologize for any inconvenience caused, and I'm here to provide you with the information you need. The duration for reimbursement can vary depending on several factors, such as the payment method, the processing time of financial institutions, and the specific policies of the company. To ensure you have the most accurate information, I kindly request you to provide me with your purchase details or any other relevant information, so I can check the status of your reimbursement and provide you with an estimated timeframe. Rest assured, I am committed to resolving this matter as quickly as possible, and I appreciate your patience and understanding in the meantime.",
+          "score": 0.842
+        },
+        {
+          "ticket_id": "bitext-3867",
+          "text": "hlw do i check the ETA of purchase {{Order Number}}",
+          "intent": "track_order",
+          "response": "Thank you for reaching out! I'm here to assist you with checking the estimated time of arrival (ETA) for your purchase with the purchase number {{Order Number}}. To view the ETA, please visit the '{{Order Tracking}}' section on our website. If you have any other questions or need further guidance, feel free to let me know. I'm here to ensure you have a seamless experience!",
+          "score": 0.842
+        },
+        {
+          "ticket_id": "bitext-657",
+          "text": "want help tyo modify my shipping address",
+          "intent": "change_shipping_address",
+          "response": "Of course! We're here to assist you with modifying your shipping address. To proceed, please provide us with the updated address details, and we'll make sure to update it in our system for your order. You can either contact our customer support team directly or make the changes online through your account's shipping address section. Let us know if there's anything else we can help you with!",
+          "score": 0.839
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-6",
+          "source": "data/kb/arabic.md",
+          "heading": "طلب استرداد جديد",
+          "text": "افتح «طلباتي»، واختر الطلب، ثم «إرجاع أو استرداد»، وحدد المنتجات والسبب وأرسل الطلب. يصلك ملصق الإرجاع بالبريد خلال ساعتين. سلم الطرد لنقطة شركة التوصيل خلال 7 أيام من استلام الملصق. مبالغ طلبات الدفع عند الاستلام تعاد إلى محفظة Basket أو حساب بنكي برقم IBAN تقدمه."
+        },
+        {
+          "number": 2,
+          "id": "arabic-0",
+          "source": "data/kb/arabic.md",
+          "heading": "تتبع الطلب",
+          "text": "افتح «طلباتي» واختر الطلب لعرض حالته ورابط تتبع شركة التوصيل. الحالات: تم الطلب، قيد التجهيز، تم الشحن، خرج للتوصيل، تم التسليم. قد تحتاج بيانات التتبع إلى 24 ساعة بعد الشحن لتظهر. إذا تجاوز الطلب موعد التسليم المتوقع بأكثر من 3 أيام عمل، تواصل مع الدعم لفتح تحقيق مع شركة التوصيل."
+        },
+        {
+          "number": 3,
+          "id": "arabic-5",
+          "source": "data/kb/arabic.md",
+          "heading": "أهلية الاسترداد",
+          "text": "يمكن إرجاع معظم المنتجات خلال 30 يومًا من التسليم إذا كانت غير مستخدمة وبعبوتها الأصلية. الأغذية القابلة للتلف وبطاقات الهدايا والبرامج القابلة للتنزيل والمنتجات المخصصة غير مؤهلة. منتجات البيع النهائي قابلة للاستبدال دون استرداد."
+        }
+      ],
+      "latency_ms": 47.7
+    },
+    "passed": true
+  },
+  {
+    "text": "مكتوب تم الاسترداد وتعدت مدة البنك والفلوس ما وصلت، مين أكلم؟",
+    "lang": "ar",
+    "gold": "arabic-8",
+    "answerable": true,
+    "output": {
+      "intent": "track_refund",
+      "intent_ar": "تتبّع الاسترداد",
+      "confidence": 0.7218,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "بحسب سياسة Basket:\n\nيمكن متابعة حالة الاسترداد في «طلباتي ← المرتجعات». الحالات: مطلوب، في الطريق، مستلم، معتمد، تم الاسترداد. إذا ظهرت «تم الاسترداد» ولم يصل المبلغ بعد المدة المحددة لطريقة الدفع، تواصل مع البنك باستخدام رقم مرجع الاسترداد في صفحة الطلب، أو اطلب من الدعم خطاب تأكيد بنكي. المساعد لا يستطيع الاطلاع على حسابك أو تحديد حالة استردادك الفعلية.",
+      "citations": [
+        1
+      ],
+      "evidence_quote": "يمكن متابعة حالة الاسترداد في «طلباتي ← المرتجعات». الحالات: مطلوب، في الطريق، مستلم، معتمد، تم الاسترداد. إذا ظهرت «تم الاسترداد» ولم يصل المبلغ بعد المدة المحددة لطريقة الدفع، تواصل مع البنك باستخدام رقم مرجع الاسترداد في صفحة الطلب، أو اطلب من الدعم خطاب تأكيد بنكي. المساعد لا يستطيع الاطلاع على حسابك أو تحديد حالة استردادك الفعلية.",
+      "needs_human": false,
+      "draft_method": "extractive policy draft",
+      "requires_agent_review": true,
+      "route": "draft_for_agent",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-2127",
+          "text": "how long until i get my money back",
+          "intent": "get_refund",
+          "response": "I can sense that you're eager to know how long it will take for you to receive your money back. The refund process can vary depending on the payment method and the specific policies of the company. To provide you with accurate information, could you please provide me with some details about your purchase? Specifically, if you could share the order number or any other relevant information, I would be able to give you a more precise estimate. Rest assured, I'm committed to ensuring that your refund is processed as quickly as possible and will assist you throughout the entire process.",
+          "score": 0.798
+        },
+        {
+          "ticket_id": "bitext-1530",
+          "text": "reimbusre {{Currency Symbol}}{{Refund Amount}}",
+          "intent": "get_refund",
+          "response": "I acknowledge that you are looking to claim a reimbursement of ${{Refund Amount}}. To initiate this process, I recommend reaching out to our customer support team. They will guide you on the specific steps and requirements for claiming your reimbursement. They can be contacted through various channels such as phone, email, or live chat. Please provide them with all the necessary details and documentation related to your purchase and reimbursement request for a smooth and efficient resolution. If you have any further questions or need assistance, feel free to let me know.",
+          "score": 0.796
+        },
+        {
+          "ticket_id": "bitext-2194",
+          "text": "how could i get a retsitution of my money",
+          "intent": "get_refund",
+          "response": "I understand your concern about obtaining a restitution of your money. It can be frustrating when you're seeking reimbursement for an issue or a faulty product. To initiate the process, I recommend reaching out to our customer service team. They have the expertise to guide you through the necessary steps, gather the required information, and ensure a smooth restitution process. By contacting our customer service department, you'll receive personalized assistance tailored to your specific situation, making it easier for you to obtain the reimbursement you deserve. Remember, you are not alone in this, and we are here to support you every step of the way.",
+          "score": 0.796
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-8",
+          "source": "data/kb/arabic.md",
+          "heading": "متابعة استرداد سابق",
+          "text": "يمكن متابعة حالة الاسترداد في «طلباتي ← المرتجعات». الحالات: مطلوب، في الطريق، مستلم، معتمد، تم الاسترداد. إذا ظهرت «تم الاسترداد» ولم يصل المبلغ بعد المدة المحددة لطريقة الدفع، تواصل مع البنك باستخدام رقم مرجع الاسترداد في صفحة الطلب، أو اطلب من الدعم خطاب تأكيد بنكي. المساعد لا يستطيع الاطلاع على حسابك أو تحديد حالة استردادك الفعلية."
+        },
+        {
+          "number": 2,
+          "id": "arabic-6",
+          "source": "data/kb/arabic.md",
+          "heading": "طلب استرداد جديد",
+          "text": "افتح «طلباتي»، واختر الطلب، ثم «إرجاع أو استرداد»، وحدد المنتجات والسبب وأرسل الطلب. يصلك ملصق الإرجاع بالبريد خلال ساعتين. سلم الطرد لنقطة شركة التوصيل خلال 7 أيام من استلام الملصق. مبالغ طلبات الدفع عند الاستلام تعاد إلى محفظة Basket أو حساب بنكي برقم IBAN تقدمه."
+        },
+        {
+          "number": 3,
+          "id": "arabic-7",
+          "source": "data/kb/arabic.md",
+          "heading": "مدة الاسترداد",
+          "text": "يصدر الاسترداد بعد فحص المنتج المرتجع، عادة خلال يومي عمل من وصوله إلى المستودع. بعد إصدار الاسترداد تصل مبالغ المحفظة خلال 24 ساعة، ومدى وفيزا وماستركارد خلال 5 إلى 7 أيام عمل، وأبل باي وSTC Pay خلال 3 إلى 5 أيام عمل، والتحويل البنكي خلال 10 أيام عمل كحد أقصى."
+        }
+      ],
+      "latency_ms": 103.1
+    },
+    "passed": true
+  },
+  {
+    "text": "What is the weather tomorrow?",
+    "lang": "en",
+    "gold": "",
+    "answerable": false,
+    "output": {
+      "intent": "track_order",
+      "intent_ar": "تتبّع الطلب",
+      "confidence": 0.4069,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "A support agent needs to review this request. I cannot check live order status or make changes to your account.",
+      "citations": [],
+      "evidence_quote": "",
+      "needs_human": true,
+      "reason": "outside_supported_intents",
+      "draft_method": "human-review fallback",
+      "route": "human_review",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-3513",
+          "text": "i cant see order {{Order Number}} goddamn current satus",
+          "intent": "track_order",
+          "response": "Thank you for trusting us! I'm fully aware of you are having trouble viewing the current status of your order with the number {{Order Number}}. I apologize for any inconvenience this may have caused. To check the current status, I recommend visiting the {{Online Order Interaction}} section on our website. If you encounter any further difficulties or have any other questions, please don't hesitate to let me know. I'm here to assist you in any way I can.",
+          "score": 0.821
+        },
+        {
+          "ticket_id": "bitext-3566",
+          "text": "need assistance seeing order {{Order Number}} current status",
+          "intent": "track_order",
+          "response": "It's great to hear from you! I can see that you need assistance in checking the current status of your order with the order number {{Order Number}}. To view the status, I recommend visiting the '{{Online Order Interaction}}' section on our website. If you have any other questions or concerns, feel free to let me know. I'm here to help make your experience seamless and effortless.",
+          "score": 0.815
+        },
+        {
+          "ticket_id": "bitext-3956",
+          "text": "wanna check order {{Order Number}} status can uhelp me",
+          "intent": "track_order",
+          "response": "Happy to hear from you! I truly understand that you would like to check the status of your order with the order number {{Order Number}}. I'm here to assist you with that. To view the status of your order, please visit the '{{Order Status}}' section on our website. If you have any other questions or need further assistance, feel free to ask. I'm committed to ensuring a seamless experience for you.",
+          "score": 0.808
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "shipping-1",
+          "source": "data/kb/shipping.md",
+          "heading": "Delivery periods",
+          "text": "Delivery estimates are shown at checkout and in the confirmation email. Business days are Sunday to Thursday, excluding public holidays. During major sale events and during Ramadan, standard delivery may take up to 2 extra business days."
+        },
+        {
+          "number": 2,
+          "id": "shipping-0",
+          "source": "data/kb/shipping.md",
+          "heading": "Delivery options",
+          "text": "- **Standard delivery**: 3 to 5 business days to all cities in Saudi Arabia. Free for orders above 200 SAR, otherwise 19 SAR.\n- **Express delivery**: 1 to 2 business days in Riyadh, Jeddah, Dammam, Makkah and Madinah. 35 SAR.\n- **Same-day delivery**: in Riyadh and Jeddah for orders placed before 12:00 noon. 49 SAR.\n- **Pickup point**: collect from a partner locker within 7 days. Free."
+        },
+        {
+          "number": 3,
+          "id": "orders-2",
+          "source": "data/kb/orders.md",
+          "heading": "Tracking an order",
+          "text": "Open **My Orders** and select the order to see its status and the courier tracking link. Statuses are: Placed, Processing, Shipped, Out for delivery, Delivered. Tracking information can take up to 24 hours to appear after an order is marked \"Shipped\". If an order is more than 3 business days past its estimated delivery date, contact us and we will open an investigation with the courier."
+        }
+      ],
+      "latency_ms": 39.5
+    },
+    "passed": true
+  },
+  {
+    "text": "هل عندكم وظائف متاحة؟",
+    "lang": "ar",
+    "gold": "",
+    "answerable": false,
+    "output": {
+      "intent": "track_order",
+      "intent_ar": "تتبّع الطلب",
+      "confidence": 0.3256,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "أحتاج مراجعة موظف الدعم لتأكيد الإجابة. لا أستطيع التحقق من حالة طلبك أو تنفيذ إجراءات على حسابك.",
+      "citations": [],
+      "evidence_quote": "",
+      "needs_human": true,
+      "reason": "outside_supported_intents",
+      "draft_method": "human-review fallback",
+      "route": "human_review",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-1969",
+          "text": "want assistance obtaining reimbursements",
+          "intent": "get_refund",
+          "response": "I realized you are looking for assistance in obtaining reimbursements. Receiving reimbursements can be a frustrating process, but I'm here to help you through it. To ensure you get the support you need, could you please provide me with more specific details about the reimbursements you are seeking? This will enable me to guide you towards the appropriate steps and resources to successfully obtain your reimbursements. Rest assured, I will do everything in my power to assist you and ensure you receive the reimbursements you are entitled to.",
+          "score": 0.782
+        },
+        {
+          "ticket_id": "bitext-2022",
+          "text": "where to get a compensation?",
+          "intent": "get_refund",
+          "response": "I comprehend that you're looking to know where to get a compensation. It's essential to reach out to the appropriate channel for requesting compensation. To initiate the process, I recommend contacting our customer support team. They have the expertise to guide you through the specific steps and requirements for submitting a request. Please provide me with your contact details, and I will ensure that our customer support representative reaches out to you promptly to assist you further. Rest assured, we are committed to resolving your concern and ensuring your satisfaction with our service.",
+          "score": 0.782
+        },
+        {
+          "ticket_id": "bitext-3997",
+          "text": "can uhelp melocate order {{Order Number}}",
+          "intent": "track_order",
+          "response": "Positively! I'm here to assist you in locating the order with the order number {{Order Number}}. To check the current status and whereabouts of your order, please visit our website and navigate to the \"Order History\" section. In case you need further assistance or have any other questions, feel free to let me know. I'm committed to providing you with a seamless experience!",
+          "score": 0.781
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-4",
+          "source": "data/kb/arabic.md",
+          "heading": "الخصم مرتين",
+          "text": "عند ظهور خصمين لطلب واحد، يكون أحدهما عادة حجز تفويض يختفي خلال 3 إلى 5 أيام عمل. إذا بقي الخصمان مكتملين بعد 5 أيام عمل، تواصل مع الدعم برقم الطلب وصورة كشف الحساب. بعد التحقق يعاد الخصم المكرر خلال يومي عمل. لا تشارك رقم البطاقة الكامل أو رمز CVV أو كلمة المرور المؤقتة OTP."
+        },
+        {
+          "number": 2,
+          "id": "arabic-0",
+          "source": "data/kb/arabic.md",
+          "heading": "تتبع الطلب",
+          "text": "افتح «طلباتي» واختر الطلب لعرض حالته ورابط تتبع شركة التوصيل. الحالات: تم الطلب، قيد التجهيز، تم الشحن، خرج للتوصيل، تم التسليم. قد تحتاج بيانات التتبع إلى 24 ساعة بعد الشحن لتظهر. إذا تجاوز الطلب موعد التسليم المتوقع بأكثر من 3 أيام عمل، تواصل مع الدعم لفتح تحقيق مع شركة التوصيل."
+        },
+        {
+          "number": 3,
+          "id": "arabic-8",
+          "source": "data/kb/arabic.md",
+          "heading": "متابعة استرداد سابق",
+          "text": "يمكن متابعة حالة الاسترداد في «طلباتي ← المرتجعات». الحالات: مطلوب، في الطريق، مستلم، معتمد، تم الاسترداد. إذا ظهرت «تم الاسترداد» ولم يصل المبلغ بعد المدة المحددة لطريقة الدفع، تواصل مع البنك باستخدام رقم مرجع الاسترداد في صفحة الطلب، أو اطلب من الدعم خطاب تأكيد بنكي. المساعد لا يستطيع الاطلاع على حسابك أو تحديد حالة استردادك الفعلية."
+        }
+      ],
+      "latency_ms": 39.8
+    },
+    "passed": true
+  },
+  {
+    "text": "Give me my account password.",
+    "lang": "en",
+    "gold": "",
+    "answerable": false,
+    "output": {
+      "intent": "change_shipping_address",
+      "intent_ar": "تعديل عنوان الشحن",
+      "confidence": 0.4004,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "en",
+      "reply": "A support agent needs to review this request. I cannot check live order status or make changes to your account.",
+      "citations": [],
+      "evidence_quote": "",
+      "needs_human": true,
+      "reason": "outside_supported_intents",
+      "draft_method": "human-review fallback",
+      "route": "human_review",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-465",
+          "text": "supports editnig my delivery address",
+          "intent": "change_shipping_address",
+          "response": "I'll get right on it! We are here to assist you with editing your delivery address. Please provide us with the necessary details, and we'll make sure your address is updated correctly.",
+          "score": 0.883
+        },
+        {
+          "ticket_id": "bitext-781",
+          "text": "support editing my address",
+          "intent": "change_shipping_address",
+          "response": "I'll take care of it! I can assist you with editing your address. Please provide me with your current address details along with the changes you would like to make, and I will help you update it in our system.",
+          "score": 0.87
+        },
+        {
+          "ticket_id": "bitext-906",
+          "text": "support correcting my address",
+          "intent": "change_shipping_address",
+          "response": "Absolutely! I'm here to assist you with correcting your address. Please provide me with the incorrect address details, and I'll guide you through the process of updating it to the correct one.",
+          "score": 0.87
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "payments-3",
+          "source": "data/kb/payments.md",
+          "heading": "Payment security",
+          "text": "Basket never asks for your full card number, CVV or one-time password (OTP) by phone, email or chat. Report any such request to our support team immediately."
+        },
+        {
+          "number": 2,
+          "id": "orders-0",
+          "source": "data/kb/orders.md",
+          "heading": "Placing an order",
+          "text": "Add items to your cart, choose a delivery address and delivery option, select a payment method and confirm. You will receive an order confirmation email and SMS with an order number in the format A-12345. Guests can order without an account, but must use the link in the confirmation email to manage the order."
+        },
+        {
+          "number": 3,
+          "id": "shipping-2",
+          "source": "data/kb/shipping.md",
+          "heading": "Setting up a shipping address",
+          "text": "Add addresses under **Account → Addresses**. A valid address needs a building number, street, district, city and postal code, or a national short address (for example RRRD2929). You can save up to 10 addresses and choose a default one."
+        }
+      ],
+      "latency_ms": 39.4
+    },
+    "passed": true
+  },
+  {
+    "text": "كم سعر ايفون الجديد عندكم؟",
+    "lang": "ar",
+    "gold": "",
+    "answerable": false,
+    "output": {
+      "intent": "track_refund",
+      "intent_ar": "تتبّع الاسترداد",
+      "confidence": 0.4505,
+      "threshold": 0.27,
+      "classifier": "e5_bilingual",
+      "language": "ar",
+      "reply": "أحتاج مراجعة موظف الدعم لتأكيد الإجابة. لا أستطيع التحقق من حالة طلبك أو تنفيذ إجراءات على حسابك.",
+      "citations": [],
+      "evidence_quote": "",
+      "needs_human": true,
+      "reason": "outside_supported_intents",
+      "draft_method": "human-review fallback",
+      "route": "human_review",
+      "similar_cases": [
+        {
+          "ticket_id": "bitext-1530",
+          "text": "reimbusre {{Currency Symbol}}{{Refund Amount}}",
+          "intent": "get_refund",
+          "response": "I acknowledge that you are looking to claim a reimbursement of ${{Refund Amount}}. To initiate this process, I recommend reaching out to our customer support team. They will guide you on the specific steps and requirements for claiming your reimbursement. They can be contacted through various channels such as phone, email, or live chat. Please provide them with all the necessary details and documentation related to your purchase and reimbursement request for a smooth and efficient resolution. If you have any further questions or need assistance, feel free to let me know.",
+          "score": 0.782
+        },
+        {
+          "ticket_id": "bitext-3452",
+          "text": "check purchase {{Order Number}} current status",
+          "intent": "track_order",
+          "response": "Thank you for reaching out! I'm here to help you with checking the current status of your purchase with the order number {{Order Number}}. To provide accurate and up-to-date information, I recommend visiting the order history section on our website. By accessing this section, you'll be able to view the current status of your purchase, including any relevant updates or tracking details. If you have any further questions or need additional assistance, please don't hesitate to let me know. I'm here to ensure you have a seamless experience!",
+          "score": 0.78
+        },
+        {
+          "ticket_id": "bitext-1614",
+          "text": "reimburse {{Refund Amount}} dollar",
+          "intent": "get_refund",
+          "response": "I understand your request for a reimbursement of ${{Refund Amount}}, and I'm here to assist you in resolving this matter. To ensure the efficient processing of your request, I would recommend reaching out to our customer support team directly. They have the necessary tools and expertise to handle such cases promptly and accurately. You can contact our customer support team at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. Rest assured, they will guide you through the reimbursement process and address any additional concerns you may have. We appreciate your patience and cooperation in this matter.",
+          "score": 0.779
+        }
+      ],
+      "sources": [
+        {
+          "number": 1,
+          "id": "arabic-6",
+          "source": "data/kb/arabic.md",
+          "heading": "طلب استرداد جديد",
+          "text": "افتح «طلباتي»، واختر الطلب، ثم «إرجاع أو استرداد»، وحدد المنتجات والسبب وأرسل الطلب. يصلك ملصق الإرجاع بالبريد خلال ساعتين. سلم الطرد لنقطة شركة التوصيل خلال 7 أيام من استلام الملصق. مبالغ طلبات الدفع عند الاستلام تعاد إلى محفظة Basket أو حساب بنكي برقم IBAN تقدمه."
+        },
+        {
+          "number": 2,
+          "id": "arabic-3",
+          "source": "data/kb/arabic.md",
+          "heading": "فشل الدفع",
+          "text": "قد يفشل الدفع بسبب عدم كفاية الرصيد، أو انتهاء البطاقة، أو انتهاء مهلة التحقق البنكي، أو حدود الشراء الإلكتروني. يبقى الطلب محفوظًا 30 دقيقة لإعادة المحاولة. إذا فشل الدفع مع خصم المبلغ، فقد يكون حجز تفويض يعيد البنك تحريره تلقائيًا خلال 3 إلى 5 أيام عمل."
+        },
+        {
+          "number": 3,
+          "id": "arabic-4",
+          "source": "data/kb/arabic.md",
+          "heading": "الخصم مرتين",
+          "text": "عند ظهور خصمين لطلب واحد، يكون أحدهما عادة حجز تفويض يختفي خلال 3 إلى 5 أيام عمل. إذا بقي الخصمان مكتملين بعد 5 أيام عمل، تواصل مع الدعم برقم الطلب وصورة كشف الحساب. بعد التحقق يعاد الخصم المكرر خلال يومي عمل. لا تشارك رقم البطاقة الكامل أو رمز CVV أو كلمة المرور المؤقتة OTP."
+        }
+      ],
+      "latency_ms": 43.0
+    },
+    "passed": true
+  }
+]

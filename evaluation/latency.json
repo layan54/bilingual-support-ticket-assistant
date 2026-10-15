@@ -1,0 +1,9 @@
+{
+  "measurement": "warm end-to-end; first request excluded",
+  "n": 27,
+  "p50_ms": 47.2,
+  "p95_ms": 104.05,
+  "reply_mode": "extractive policy draft",
+  "api_cost": 0,
+  "compute_cost": "Local compute not priced."
+}
