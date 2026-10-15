@@ -4,7 +4,7 @@ from src.data import ROOT
 from src.pipeline import Assistant
 
 def evaluate_additional(bot=None):
-    bot=bot or Assistant(enable_generation=False)
+    bot=bot or Assistant()
     rows=json.loads((ROOT/'data/additional_checks.json').read_text())
     for row in rows:
         out=bot(row['text'])
