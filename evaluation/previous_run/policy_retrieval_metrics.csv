@@ -1,5 +1,0 @@
-method,lang,hit_at_1,hit_at_3,mrr_at_5
-dense,ar,1.0,1.0,1.0
-dense,en,1.0,1.0,1.0
-hybrid,ar,0.8333333333333334,0.9166666666666666,0.8611111111111112
-hybrid,en,1.0,1.0,1.0

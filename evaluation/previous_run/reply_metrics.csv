@@ -1,3 +1,0 @@
-lang,n,answerable_draft_coverage,gold_section_citation_rate,unanswerable_human_review_rate,note
-en,14,0.3333333333333333,0.3333333333333333,1.0,Citation ID/quote validation and gold-section matching do not prove claim-level faithfulness. Review outputs manually.
-ar,14,0.08333333333333333,0.08333333333333333,1.0,Citation ID/quote validation and gold-section matching do not prove claim-level faithfulness. Review outputs manually.
