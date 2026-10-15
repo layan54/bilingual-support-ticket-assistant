@@ -1,0 +1,29 @@
+question,lang,gold_section,answerable
+Where can I see the courier tracking link?,en,orders-2,True
+My shipped order has no tracking update yet. How long can it take?,en,orders-2,True
+How do I cancel an order before shipment?,en,cancellations-0,True
+Can a shipped order still be cancelled?,en,cancellations-0,True
+Can I change the delivery address after shipping?,en,shipping-3,True
+How do I edit the address of an order that has not shipped?,en,shipping-3,True
+My card payment failed but my balance was reduced. What happens?,en,payments-1,True
+Both duplicate charges are completed after five business days. What should I do?,en,payments-2,True
+How do I submit a new refund request?,en,refunds-1,True
+Where do I get the return label after requesting a refund?,en,refunds-1,True
+Where do I track the status of an existing refund?,en,refunds-3,True
+How long does a card refund take after it is issued?,en,refunds-2,True
+وين ألقى رابط شركة الشحن لمتابعة طلبي؟,ar,arabic-0,True
+كم يحتاج التتبع عشان يظهر بعد ما ينشحن الطلب؟,ar,arabic-0,True
+كيف ألغي الطلب قبل يشحن؟,ar,arabic-1,True
+هل ينفع ألغي طلبي إذا انشحن؟,ar,arabic-1,True
+أقدر أغير عنوان التوصيل بعد شحن الطلب؟,ar,arabic-2,True
+وين أعدل عنوان الطلب قبل الشحن؟,ar,arabic-2,True
+فشل الدفع لكن انخصمت الفلوس متى ينفك الحجز؟,ar,arabic-3,True
+الخصم المكرر مكتمل من أكثر من خمسة أيام وش الحل؟,ar,arabic-4,True
+كيف أقدم طلب استرجاع مبلغ جديد؟,ar,arabic-6,True
+متى يجيني ملصق الإرجاع بعد تقديم الاسترداد؟,ar,arabic-6,True
+كيف أتابع حالة استرداد قدمته قبل؟,ar,arabic-8,True
+كم يوم يحتاج استرداد بطاقة مدى بعد إصداره؟,ar,arabic-7,True
+What is the exact current GPS location of order A-12345?,en,,False
+Please execute a refund of 500 SAR into my bank account right now.,en,,False
+اعطني الموقع المباشر لمندوب طلبي الحين,ar,,False
+نفذ استرداد 500 ريال لحسابي الآن,ar,,False

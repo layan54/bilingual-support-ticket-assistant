@@ -1,0 +1,25 @@
+text,intent,dialect,ticket_id,lang,source
+أريد إلغاء الطلب رقم A-48213 لأنني لم أعد بحاجة إليه,cancel_order,msa,course-ar-test-0,ar,SDAIA course hand-written test
+كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,gulf,course-ar-test-1,ar,SDAIA course hand-written test
+ابي اكنسل الطلب قبل لا يتشحن,cancel_order,gulf,course-ar-test-2,ar,SDAIA course hand-written test
+الرجاء إلغاء طلبي فوراً قبل شحنه,cancel_order,msa,course-ar-test-3,ar,SDAIA course hand-written test
+أريد تغيير عنوان التوصيل لطلبي,change_shipping_address,msa,course-ar-test-8,ar,SDAIA course hand-written test
+العنوان غلط في الطلب ابي اغيره لحي النرجس,change_shipping_address,gulf,course-ar-test-9,ar,SDAIA course hand-written test
+انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,msa,course-ar-test-10,ar,SDAIA course hand-written test
+ممكن توصلون الطلب على عنوان شغلي بدل البيت؟,change_shipping_address,gulf,course-ar-test-11,ar,SDAIA course hand-written test
+أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,msa,course-ar-test-64,ar,SDAIA course hand-written test
+ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,gulf,course-ar-test-65,ar,SDAIA course hand-written test
+كيف أطلب استرجاع المبلغ؟,get_refund,msa,course-ar-test-66,ar,SDAIA course hand-written test
+رجعوا لي فلوسي بسرعة لو سمحت,get_refund,gulf,course-ar-test-67,ar,SDAIA course hand-written test
+تم خصم المبلغ مرتين من بطاقتي!!,payment_issue,msa,course-ar-test-72,ar,SDAIA course hand-written test
+الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,gulf,course-ar-test-73,ar,SDAIA course hand-written test
+فشلت عملية الدفع عدة مرات، ما المشكلة؟,payment_issue,msa,course-ar-test-74,ar,SDAIA course hand-written test
+انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,gulf,course-ar-test-75,ar,SDAIA course hand-written test
+أين طلبي؟ لم يصل حتى الآن,track_order,msa,course-ar-test-100,ar,SDAIA course hand-written test
+وين طلبي؟ صار له أسبوع,track_order,gulf,course-ar-test-101,ar,SDAIA course hand-written test
+أريد تتبع الشحنة الخاصة بالطلب A-55821,track_order,msa,course-ar-test-102,ar,SDAIA course hand-written test
+متى يوصل طلبي؟ ابي رقم التتبع,track_order,gulf,course-ar-test-103,ar,SDAIA course hand-written test
+لم يصلني المبلغ المسترد حتى الآن,track_refund,msa,course-ar-test-104,ar,SDAIA course hand-written test
+وين وصل استرجاع فلوسي؟,track_refund,gulf,course-ar-test-105,ar,SDAIA course hand-written test
+ما هي حالة طلب الاسترداد الخاص بي؟,track_refund,msa,course-ar-test-106,ar,SDAIA course hand-written test
+صار لي عشرة ايام وما رجع المبلغ,track_refund,gulf,course-ar-test-107,ar,SDAIA course hand-written test

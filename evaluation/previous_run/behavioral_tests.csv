@@ -1,0 +1,6 @@
+name,input,expected,predicted,passed,confidence
+cancel_en,I want to cancel my order,cancel_order,cancel_order,True,0.9875383568434644
+cancel_ar,أريد إلغاء طلبي,cancel_order,cancel_order,True,0.8236236827659287
+refund_status,My refund was approved but the money has not arrived,track_refund,get_refund,False,0.4785409321914429
+new_refund,I want to request a refund,get_refund,get_refund,True,0.8545669254251519
+payment,I was charged twice for one order,payment_issue,cancel_order,False,0.33536542470740566

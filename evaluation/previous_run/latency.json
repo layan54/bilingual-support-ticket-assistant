@@ -1,0 +1,9 @@
+{
+  "measurement": "warm end-to-end; first request excluded",
+  "n": 27,
+  "p50_ms": 3529.6,
+  "p95_ms": 8161.669999999998,
+  "generation_enabled": true,
+  "api_cost": 0,
+  "compute_cost": "Local Colab compute not priced; not claimed free."
+}

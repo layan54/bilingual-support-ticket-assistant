@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "bitext_url": "https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset/resolve/main/Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv",
+  "raw_sha256": "6f81102b0100b97b8468eb04368033a23206bf1fde9d53500d5806ec1001a434",
+  "counts": {
+    "train": {
+      "ar": 120,
+      "en": 1200
+    },
+    "val": {
+      "ar": 36,
+      "en": 240
+    },
+    "test": {
+      "ar": 24,
+      "en": 240
+    },
+    "history": {
+      "en": 1800
+    }
+  },
+  "exact_canonical_overlap": 0,
+  "near_duplicate_note": "Lexical grouping does not remove every semantic/template near-duplicate."
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.gradio/
+.pytest_cache/
+artifacts/checkpoints/
+artifacts/encoder/
+*.safetensors
+*.bin
+*.pem
+data/bitext_raw.csv
+*.download

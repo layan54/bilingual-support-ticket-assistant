@@ -1,0 +1,14 @@
+{
+  "e5_en": {
+    "tau": 0.26,
+    "n_train": 1200,
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "p95_ms": 12.933767200229335
+  },
+  "e5_bilingual": {
+    "tau": 0.27,
+    "n_train": 1320,
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "p95_ms": 13.573981550189272
+  }
+}

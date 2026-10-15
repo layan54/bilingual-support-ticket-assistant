@@ -1,0 +1,13 @@
+# Tested target: Python 3.11–3.13, Colab T4. Colab supplies PyTorch.
+transformers==4.56.2
+sentence-transformers==5.1.1
+datasets==4.0.0
+accelerate==1.10.1
+gradio==5.44.1
+rank-bm25==0.2.2
+sentencepiece==0.2.1
+scikit-learn==1.7.2
+pandas==2.2.3
+numpy>=1.26.4,<3
+matplotlib>=3.8,<4
+joblib>=1.4,<2

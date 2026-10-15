@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "scikit-learn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "executed": [
+    "data preparation and overlap checks",
+    "TF-IDF training and held-out predictions",
+    "stratified bootstrap metrics",
+    "20 observed Arabic classification failures"
+  ],
+  "not_executed_here": [
+    "e5 inference/training",
+    "encoder fine-tuning",
+    "LLM generation",
+    "Gradio launch"
+  ],
+  "reason": "This host has no PyTorch/GPU; those stages run in Colab."
+}

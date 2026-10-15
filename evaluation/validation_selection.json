@@ -1,0 +1,12 @@
+{
+  "tau": 0.32,
+  "max_length": 32,
+  "model": "distilbert/distilbert-base-multilingual-cased",
+  "validation_macro_f1": {
+    "encoder_finetuned": 0.9491102449589857,
+    "e5_en": 0.9493991328511568,
+    "e5_bilingual": 0.971050854501065
+  },
+  "serving_model": "e5_bilingual",
+  "n_train": 1320
+}

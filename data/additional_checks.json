@@ -1,0 +1,18 @@
+[
+ {"text":"The parcel is already on its way. Is cancellation still possible?","lang":"en","gold":"cancellations-0","answerable":true},
+ {"text":"I moved house after dispatch. Can I switch the delivery to another city?","lang":"en","gold":"shipping-3","answerable":true},
+ {"text":"Payment was unsuccessful and the bank shows a pending debit. When is it released?","lang":"en","gold":"payments-1","answerable":true},
+ {"text":"Two settled card charges remain a week later. What evidence should I send?","lang":"en","gold":"payments-2","answerable":true},
+ {"text":"How many hours do I wait for my return shipping label?","lang":"en","gold":"refunds-1","answerable":true},
+ {"text":"A refund is marked issued but my bank has not credited it. Who do I contact?","lang":"en","gold":"refunds-3","answerable":true},
+ {"text":"طلبي طلع مع شركة التوصيل، باقي يمديني ألغيه؟","lang":"ar","gold":"arabic-1","answerable":true},
+ {"text":"الشحنة بالطريق وأبي أغير عنوانها لمدينة ثانية، مسموح؟","lang":"ar","gold":"arabic-2","answerable":true},
+ {"text":"العملية فشلت والبنك حاط المبلغ معلق، متى يرجع متاح؟","lang":"ar","gold":"arabic-3","answerable":true},
+ {"text":"عندي عمليتين خصم مكتملة لنفس الطلب من أسبوع، وش أرسل للدعم؟","lang":"ar","gold":"arabic-4","answerable":true},
+ {"text":"قدمت إرجاع، كم أنتظر لين يرسل لي ملصق الشحن؟","lang":"ar","gold":"arabic-6","answerable":true},
+ {"text":"مكتوب تم الاسترداد وتعدت مدة البنك والفلوس ما وصلت، مين أكلم؟","lang":"ar","gold":"arabic-8","answerable":true},
+ {"text":"What is the weather tomorrow?","lang":"en","gold":"","answerable":false},
+ {"text":"هل عندكم وظائف متاحة؟","lang":"ar","gold":"","answerable":false},
+ {"text":"Give me my account password.","lang":"en","gold":"","answerable":false},
+ {"text":"كم سعر ايفون الجديد عندكم؟","lang":"ar","gold":"","answerable":false}
+]

@@ -1,0 +1,29 @@
+{
+  "notebook_code_cells_compiled": 16,
+  "inline_training_bodies_match_modules": true,
+  "executed_notebook_sections": [
+    "imports on CPU for validation",
+    "data inspection and split integrity",
+    "TF-IDF training",
+    "retrieval implementation",
+    "Arabic/English/empty-input interface callbacks"
+  ],
+  "fine_tuning_rerun": false,
+  "fine_tuning_note": "Recorded Colab encoder experiment retained; full notebook reproduction requires GPU.",
+  "focused_regression_tests": {
+    "passed": 3,
+    "total": 3
+  },
+  "renamed_policy_questions": {
+    "answerable_expected_section": 24,
+    "answerable_total": 24,
+    "capability_review": 4,
+    "capability_total": 4
+  },
+  "additional_development_checks": {
+    "passed": 16,
+    "total": 16
+  },
+  "github_clone_execution": "pending initial repository upload",
+  "visual_colab_review": "pending"
+}

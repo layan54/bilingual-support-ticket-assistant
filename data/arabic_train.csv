@@ -1,0 +1,121 @@
+ticket_id,text,intent,lang,dialect,source,split
+synthetic-ar-train-track_order-0,وين طلبي للحين ما وصل,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-1,أريد معرفة حالة الطلب,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-2,كيف أتابع شحنتي,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-3,متى يوصل الطلب اللي شريته,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-4,ابي رابط تتبع الطرد,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-5,الشحنة تأخرت عن موعدها,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-6,طلبي مكتوب تم الشحن وين ألقاه,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-7,كيف أعرف مكان المندوب,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-8,ما وصلني تحديث عن الطلب,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-9,أين وصلت شحنتي الآن,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-10,اشتريت أمس وأبي أشيك على التوصيل,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-11,وصلني إشعار شحن لكن ما فيه تتبع,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-12,ممكن أعرف متى التسليم,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-13,الطرد واقف بنفس المكان من يومين,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-14,طلبت من أسبوع ولا جاني شيء,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-15,حالة طلبي ما تغيرت من التجهيز,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-16,هل طلبي طلع من المستودع,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-17,كيف أشوف آخر تحديث للشحنة,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-18,أحتاج متابعة توصيل مشترياتي,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_order-19,الموعد المتوقع عدى وما استلمت,track_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-0,أريد إلغاء طلبي,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-1,كنسلوا الطلب ما عاد أبيه,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-2,كيف أوقف الطلب قبل الشحن,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-3,اشتريت بالغلط وأبي ألغي,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-4,ما أبي تكملون تجهيز الطلب,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-5,أبي أحذف الطلب بالكامل,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-6,ممكن إلغاء الشراء,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-7,غيرت رأيي ما أبي الطلب,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-8,أحتاج ألغي الطلب قبل يطلع,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-9,هل أقدر أكنسل الحين,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-10,طلبت مرتين وأبي ألغي واحد,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-11,لا تشحنون طلبي أبي ألغيه,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-12,أبغى أوقف عملية الشراء نهائيا,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-13,كيف ألغي طلب لسه ما انشحن,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-14,أريد سحب طلب الشراء,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-15,ساعدوني أكنسل مشترياتي,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-16,ابي إلغاء مو تعديل,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-17,قررت ما أشتري كيف ألغي,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-18,الطلب قيد التجهيز وأبي أوقفه,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-cancel_order-19,ألغوا الطلب لأني ما أحتاجه,cancel_order,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-0,أريد تغيير عنوان الشحن,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-1,كتبت عنوان غلط وأبي أعدله,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-2,كيف أحول الطلب لعنوان ثاني,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-3,أبي التوصيل لبيتي الجديد,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-4,ممكن أغير المدينة في عنوان الطلب,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-5,العنوان الوطني خطأ كيف أصححه,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-6,بدلوا عنوان التسليم للمكتب,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-7,ابي أعدل رقم المبنى بالشحنة,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-8,الطلب رايح للبيت القديم أبي أغيره,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-9,كيف أحدث موقع استلام الطلب,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-10,كتبت الحي غلط في التوصيل,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-11,أحتاج تعديل الرمز البريدي للطلب,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-12,غيرت سكني وأبي الشحنة تجي هنا,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-13,ممكن تحويل الشحنة لعنوان أمي,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-14,أريد تصحيح شارع عنوان التسليم,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-15,أبغى أبدل عنوان الطلب الحالي,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-16,كيف أغير وجهة توصيل مشترياتي,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-17,اللوكيشن المسجل مو صحيح,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-18,ودي أحول التوصيل من البيت للعمل,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-change_shipping_address-19,أحتاج تغيير بيانات عنوان الشحنة,change_shipping_address,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-0,انخصم المبلغ مرتين,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-1,الدفع فشل والفلوس انسحبت,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-2,ما قدرت أدفع بالبطاقة,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-3,كل ما أدفع يطلع خطأ,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-4,طلعت لي عمليتين لنفس الطلب,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-5,البنك خصم والمتجر يقول لم يتم الدفع,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-6,أواجه مشكلة في إتمام الدفع,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-7,البطاقة ترفض عملية الشراء,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-8,دفعت لكن الطلب ما تأكد,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-9,تم سحب مبلغ إضافي بدون سبب,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-10,أبل باي مو راضي يكمل الدفع,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-11,عملية الدفع معلقة وش أسوي,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-12,التحقق البنكي ما يكتمل,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-13,انقطع الموقع وأنا أدفع وانسحب المبلغ,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-14,أحتاج مساعدة بخصم مكرر,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-15,رصيدي كافي لكن الدفع مرفوض,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-16,فاتورة واحدة وخصمين على البطاقة,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-17,الدفع الإلكتروني يعطيني فشل,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-18,خدمة مدى ما تقبل عملية الدفع,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-payment_issue-19,خصمتوا أكثر من قيمة الطلب,payment_issue,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-0,أريد استرداد قيمة المنتج,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-1,كيف أطلب استرجاع فلوسي,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-2,المنتج خربان وأبي أرجعه وآخذ المبلغ,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-3,أبغى أبدأ طلب استرداد,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-4,وصلني منتج غلط أبي فلوسي,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-5,ما ناسبني المنتج كيف أرجعه,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-6,أحتاج تقديم طلب إرجاع واسترداد,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-7,أبي أستعيد مبلغ الشراء,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-8,كيف أفتح طلب استرجاع للمنتج,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-9,القطعة تالفة وأريد تعويض المبلغ,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-10,هل أقدر أرجع الغرض وآخذ قيمته,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-11,أبي نموذج طلب استرداد,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-12,وش خطوات إرجاع المشتريات واسترداد قيمتها,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-13,ودي أرجع المنتج وأسترد اللي دفعته,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-14,أرغب بطلب إعادة المبلغ,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-15,أريد بدء إجراءات استرجاع المبلغ,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-16,الغرض ما عجبني أبي أسترد قيمته,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-17,أبغى أقدم طلب إعادة فلوسي,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-18,كيف أطالب بقيمة منتج معيب,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-get_refund-19,أحتاج أرجع مشترياتي مقابل استرداد,get_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-0,طلبت استرداد وما رجعت فلوسي,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-1,وين وصل طلب استرجاع المبلغ,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-2,متى ينزل المبلغ المسترد,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-3,الاسترداد مقبول لكن الحساب ما وصله شيء,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-4,أبي أتابع حالة الاسترداد,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-5,رجعت المنتج من أسبوع ولا رجعت الفلوس,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-6,كيف أعرف إذا حولتوا مبلغ الاسترجاع,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-7,تأخر استردادي بعد الموافقة,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-8,عندي رقم استرداد وأبي أشيك عليه,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-9,هل تم تحويل المبلغ المسترد,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-10,أرسلت المرتجع وانتظر إعادة الفلوس,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-11,ليش ما نزل استرداد الطلب القديم,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-12,التطبيق يقول تم الاسترداد والبنك ما استلم,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-13,أحتاج تحديث عن استرجاع مبلغي,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-14,فلوس المرتجع للحين ما جات,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-15,قدمت استرداد قبل أيام وش صار عليه,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-16,أريد معرفة موعد وصول مبلغ المرتجع,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-17,الطلب المسترد معتمد وأنتظر التحويل,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-18,متى ترجع فلوسي بعد فحص المرتجع,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train
+synthetic-ar-train-track_refund-19,أرجعت القطعة وما جاني تحديث للاسترداد,track_refund,ar,mixed,AI-authored synthetic; not real customer messages,train

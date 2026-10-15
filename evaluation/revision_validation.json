@@ -1,0 +1,19 @@
+{
+  "focused_regression_tests": 3,
+  "regression_tests_passed": 3,
+  "gradio_components": 22,
+  "gradio_http_status": 200,
+  "gradio_callbacks": [
+    "Arabic",
+    "English",
+    "empty_input"
+  ],
+  "notebook_code_cells_compiled": 11,
+  "visual_browser_review": "pending in Colab; browser download unavailable locally",
+  "retrained_classifiers": false,
+  "optional_llm_selector_execution": "not run",
+  "additional_development_checks": {
+    "passed": 16,
+    "total": 16
+  }
+}

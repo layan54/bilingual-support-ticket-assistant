@@ -1,0 +1,1 @@
+{"tau": 0.36, "training": "English-only", "type": "TF-IDF char ngrams + LogisticRegression"}
