@@ -25,7 +25,6 @@ English messages come from Bitext. Arabic training and validation examples are s
 - **Retrieval:** Multilingual embeddings retrieve historical cases and policy sections. Dense search, hybrid search, and explicit query expansion are compared on the same development questions.
 - **Replies:** The default draft quotes the retrieved policy and cites its source. Low-confidence, weak-evidence, and recognized unsupported requests route to review. Scope patterns do not detect all unsupported requests. All drafts require agent review.
 
-The optional Qwen evidence selector remains available in the Python implementation but is not used by the notebook's default demo. The evaluated default uses extractive policy drafts rather than free-form generation.
 
 ## Results
 
