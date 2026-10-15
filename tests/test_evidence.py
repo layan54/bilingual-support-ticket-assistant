@@ -1,5 +1,6 @@
 """Focused regression checks for policy preservation and evidence-selection failures."""
 import unittest
+from src.pipeline import policy_excerpt, capability_limit, sections
 
 class EvidenceTests(unittest.TestCase):
     def test_conditions_preserved_in_both_languages(self):
